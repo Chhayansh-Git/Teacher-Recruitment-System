@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+numpy
+websockets>=10.0,<13.0

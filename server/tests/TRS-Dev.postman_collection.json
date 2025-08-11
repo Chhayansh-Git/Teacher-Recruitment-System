@@ -1,0 +1,856 @@
+{
+	"info": {
+		"_postman_id": "7cfb009e-e679-4c60-8701-68a8f792aa13",
+		"name": "TRS-Dev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46110030"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Admin Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"chayansh@gmail.com\",\n  \"password\": \"Chhayansh@7\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/admin/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candidate Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"role\": \"candidate\",\n  \"fullName\": \"Test Candidate\",\n  \"email\": \"test.candidate+1@example.com\",\n  \"password\": \"TestUser@123\",\n  \"contact\": \"+919900112255\",\n  \"type\": \"teaching\",\n  \"position\": \"Primary Teacher\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candidate: Verify OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"test.candidate+1@example.com\",\n  \"otp\": \"735105\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/verify-otp",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"verify-otp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candidate Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"role\": \"candidate\",\n  \"email\": \"test.candidate+1@example.com\",\n  \"password\": \"TestUser@123\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "School Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Alpha International\",\n  \"email\": \"school.alpha+1@example.com\",\n  \"address\": \"123 Academy Road\",\n  \"contactNo\": \"+919955559999\",\n  \"affiliationNo\": \"AFF112233\",\n  \"location\": \"Gurgaon\",\n  \"pincode\": \"122002\",\n  \"board\": \"CBSE\",\n  \"schoolUpto\": \"XII\",\n  \"strength\": 1000,\n  \"termsAccepted\": true,\n  \"website\": \"https://www.alphaintl.edu.in\",\n  \"principalName\": \"Ms. Smith\",\n  \"directorName\": \"Mr. Kapoor\",\n  \"whatsappNumber\": \"+919955551111\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/schools/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "School: Verify-OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"school.alpha+1@example.com\",\n  \"otp\": \"233470\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/schools/verify-otp",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"verify-otp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "School Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"login\": \"school.alpha+1@example.com\",       // your original registration email\n  \"password\": \"6fn5ku1bue\"                     // (same password as above)\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/schools/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Candidate Flows",
+			"item": [
+				{
+					"name": "Candidate Profile Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{candidate_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"languages\": [\"English\", \"Hindi\"],\n  \"skills\": [\"Mathematics\", \"Teaching\", \"Microsoft Excel\"],\n  \"preferredLocations\": [\"Delhi\", \"Gurgaon\"],\n  \"extraResponsibilities\": [\"NCC\", \"Exam Duty\"],\n  \"address\": \"Flat 306, Windsor Apartments, Delhi 110018\",\n  \"experience\": [\n    {\n      \"role\": \"PGT Mathematics\",\n      \"from\": \"2022-06-01\",\n      \"schoolName\": \"Modern Public School\",\n      \"years\": 2,\n      \"employmentType\": \"Full‑Time\"\n    }\n  ],\n  \"education\": [\n    {\n      \"level\": \"Bachelors\",\n      \"degree\": \"B.Ed\",\n      \"boardOrUniversity\": \"DU\",\n      \"passingYear\": 2023\n    }\n  ]\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/candidates/profile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"candidates",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candidate Document Upload",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{candidate_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "postman-cloud:///1f06867e-dc73-4120-a26f-3a38d4c403b0"
+								},
+								{
+									"key": "type",
+									"value": "education",
+									"type": "text"
+								},
+								{
+									"key": "index",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/candidates/upload",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"candidates",
+								"upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candidate Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{candidate_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/candidates/dashboard",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"candidates",
+								"dashboard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candidate Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{candidate_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/candidates/profile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"candidates",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "School Flows",
+			"item": [
+				{
+					"name": "Fetch School Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/schools/profile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "School Profile Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"principalName\": \"Mrs. Sunita Rao\", \"address\": \"Updated School Lane, Delhi\" }\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/schools/profile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post New Requirement",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"TGT Social Science\",\n  \"teachingOrNonTeaching\": \"Teaching\",\n  \"qualification\": \"B.A. B.Ed\",\n  \"experience\": 1,\n  \"minExperience\": 1,\n  \"minQualification\": \"Bachelors\",\n  \"gender\": \"Female\",\n  \"noOfCandidates\": 3\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/schools/requirements",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"requirements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List All Requirements",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/schools/requirements",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"requirements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Requirement by ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/schools/requirements/6893a709699f7d4c9b9bd4e4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"requirements",
+								"6893a709699f7d4c9b9bd4e4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Requirement",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"noOfCandidates\": 4 }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/schools/requirements/6893a709699f7d4c9b9bd4e4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"requirements",
+								"6893a709699f7d4c9b9bd4e4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Requirement",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{school_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/schools/requirements/6893a709699f7d4c9b9bd4e4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"schools",
+								"requirements",
+								"6893a709699f7d4c9b9bd4e4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "End-to-End Smoke Testing",
+			"item": [
+				{
+					"name": "Push Candidate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"requirementId\": \"6893a4d6d00fc2e738d904fa\",\n  \"candidates\": [\n    { \"id\": \"6893a576699f7d4c9b9bd4be\", \"score\": 0.93 },\n    { \"id\": \"6893a4d6d00fc2e738d904f1\", \"score\": 0.84 }\n  ]\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/admin/push",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"push"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Shortlist Candidate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"candidate\": \"6893a576699f7d4c9b9bd4be\",\n  \"requirement\": \"6893a576699f7d4c9b9bd4be\",\n  \"school\": \"6893a5b6699f7d4c9b9bd4cc\",\n  \"status\": \"shortlisted\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/shortlists",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"shortlists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Status to Invited",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"candidate\": \"6893a576699f7d4c9b9bd4be\",\n  \"requirement\": \"6893a576699f7d4c9b9bd4be\",\n  \"school\": \"6893a5b6699f7d4c9b9bd4cc\",\n  \"status\": \"invited\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/shortlists",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"shortlists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Status to Hired",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"candidate\": \"6893a576699f7d4c9b9bd4be\",\n  \"requirement\": \"6893a576699f7d4c9b9bd4be\",\n  \"school\": \"6893a5b6699f7d4c9b9bd4cc\",\n  \"status\": \"hired\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/shortlists",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"shortlists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Status to Rejected",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"candidate\": \"688fb01d534ac97e1c0d13d7\",\n  \"requirement\": \"688fb01d534ac97e1c0d13dd\",\n  \"school\": \"688fb01c534ac97e1c0d13d1\",\n  \"status\": \"rejected\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/shortlists",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"shortlists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Shortlist(s)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/shortlists?requirement=6893a576699f7d4c9b9bd4be",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"shortlists"
+							],
+							"query": [
+								{
+									"key": "requirement",
+									"value": "6893a576699f7d4c9b9bd4be"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Schedule Interview",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"candidate\": \"6893a576699f7d4c9b9bd4be\",\n  \"requirement\": \"6893a576699f7d4c9b9bd4be\",\n  \"school\": \"6893a5b6699f7d4c9b9bd4cc\",\n  \"scheduledAt\": \"2025-08-06T13:00:40Z\",\n  \"mode\": \"Online\",\n  \"panel\": [\"Principal\", \"HR\"]\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/interviews",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"interviews"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mark Interview as Completed",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"feedback\": \"Very strong skills.\",\n  \"score\": 10,\n  \"status\": \"completed\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/interviews/6893b0d11bac51b4c9409c9d/complete",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"interviews",
+								"6893b0d11bac51b4c9409c9d",
+								"complete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Interviews for a Requirement",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/interviews?requirement=6893a576699f7d4c9b9bd4be",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"interviews"
+							],
+							"query": [
+								{
+									"key": "requirement",
+									"value": "6893a576699f7d4c9b9bd4be"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url\n",
+			"value": "http://localhost:5000/api/v1",
+			"type": "string"
+		}
+	]
+}

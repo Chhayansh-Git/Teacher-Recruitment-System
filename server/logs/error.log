@@ -1,0 +1,1225 @@
+2025-07-21 16:09:55 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:09:55 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:12:23 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:12:23 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:12:56 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:12:56 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:13:56 [ERROR]: POST /api/v1/schools/register → 400: Unexpected token 'P', "POST /api/"... is not valid JSON
+2025-07-21 16:13:56 [ERROR]: SyntaxError: Unexpected token 'P', "POST /api/"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/types/json.js:156:10)
+    at parse (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/types/json.js:71:15)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+2025-07-21 16:14:07 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:14:07 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:14:19 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:14:19 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:15:10 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:15:10 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:15:57 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:15:57 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:17:51 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:17:51 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:34:41 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: password: Path `password` is required.
+2025-07-21 16:34:41 [ERROR]: ValidationError: School validation failed: password: Path `password` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-21 16:59:34 [ERROR]: ✖ Template [OTP_VERIFICATION] not found
+2025-07-21 16:59:34 [ERROR]: POST /api/v1/schools/register → 500: Email template [OTP_VERIFICATION] not found
+2025-07-21 16:59:34 [ERROR]: InternalServerError: Email template [OTP_VERIFICATION] not found
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:46:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at async registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:91:5)
+2025-07-21 17:03:30 [ERROR]: GET /api/v1/schools/register → 401: Authentication token missing
+2025-07-21 17:03:30 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:29:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-21 17:14:12 [ERROR]: POST /api/v1/email-templates/seed-defaults → 401: Invalid or expired token
+2025-07-21 17:14:12 [ERROR]: UnauthorizedError: Invalid or expired token
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:36:11
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-21 17:14:46 [ERROR]: POST /api/v1/schools/register → 409: Email already registered
+2025-07-21 17:14:46 [ERROR]: ConflictError: Email already registered
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:61:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 17:15:58 [ERROR]: ✖ Template [OTP_VERIFICATION] not found
+2025-07-21 17:15:58 [ERROR]: POST /api/v1/schools/register → 500: Email template [OTP_VERIFICATION] not found
+2025-07-21 17:15:58 [ERROR]: InternalServerError: Email template [OTP_VERIFICATION] not found
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:46:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at async registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:91:5)
+2025-07-21 17:18:57 [ERROR]: POST /api/v1/admin/login → 401: Invalid credentials
+2025-07-21 17:18:57 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginAdmin (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/adminController.js:67:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 17:40:01 [ERROR]: POST /api/v1/admin/login → 401: Invalid credentials
+2025-07-21 17:40:01 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginAdmin (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/adminController.js:67:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 17:45:19 [ERROR]: Seeder error: School validation failed: board: Path `board` is required., schoolUpto: Path `schoolUpto` is required., contactNo: Path `contactNo` is required., address: Path `address` is required.
+2025-07-21 17:45:37 [ERROR]: Unhandled Rejection: School validation failed: board: Path `board` is required., schoolUpto: Path `schoolUpto` is required., contactNo: Path `contactNo` is required., address: Path `address` is required.
+2025-07-21 17:45:38 [ERROR]: Seeder error: School validation failed: board: Path `board` is required., schoolUpto: Path `schoolUpto` is required., contactNo: Path `contactNo` is required., address: Path `address` is required.
+2025-07-21 17:48:27 [ERROR]: Seeder error: School validation failed: contactNo: Path `contactNo` is invalid (+91-9988776655)., schoolUpto: `12th Grade` is not a valid enum value for path `schoolUpto`.
+2025-07-21 17:59:07 [ERROR]: GET /api/v1/admin/dashboard → 401: Authentication token missing
+2025-07-21 17:59:07 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:29:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-21 18:00:48 [ERROR]: GET /api/v1/admin/dashboard → 401: Authentication token missing
+2025-07-21 18:00:48 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:29:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-21 22:44:05 [ERROR]: POST /api/v1/admin/requirements/687e318746b89fde13117a9f/push-candidates → 400: Invalid value, Invalid value
+2025-07-21 22:44:05 [ERROR]: BadRequestError: Invalid value, Invalid value
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/adminRoutes.js:26:38)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 22:48:05 [ERROR]: POST /api/v1/admin/requirements/687e318746b89fde13117a9f/push-candidates → 400: Invalid value, Invalid value
+2025-07-21 22:48:05 [ERROR]: BadRequestError: Invalid value, Invalid value
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/adminRoutes.js:26:38)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 22:59:05 [ERROR]: POST /api/v1/schools → 403: Forbidden
+2025-07-21 22:59:05 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:34:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-21 23:02:03 [ERROR]: POST /api/v1/schools → 403: Forbidden
+2025-07-21 23:02:03 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:34:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-21 23:03:13 [ERROR]: POST /api/v1/schools → 400: Terms must be accepted
+2025-07-21 23:03:13 [ERROR]: BadRequestError: Terms must be accepted
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:60:31)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:42:3)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:04:26 [ERROR]: POST /api/v1/schools → 400: Terms must be accepted
+2025-07-21 23:04:26 [ERROR]: BadRequestError: Terms must be accepted
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:60:31)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:42:3)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:05:17 [ERROR]: POST /api/v1/schools → 400: Terms must be accepted
+2025-07-21 23:05:17 [ERROR]: BadRequestError: Terms must be accepted
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:60:31)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:42:3)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:05:26 [ERROR]: POST /api/v1/schools → 400: Terms must be accepted
+2025-07-21 23:05:26 [ERROR]: BadRequestError: Terms must be accepted
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:60:31)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:42:3)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:09:41 [ERROR]: ✖ Template [OTP_VERIFICATION] not found
+2025-07-21 23:09:41 [ERROR]: POST /api/v1/schools → 500: Email template [OTP_VERIFICATION] not found
+2025-07-21 23:09:41 [ERROR]: InternalServerError: Email template [OTP_VERIFICATION] not found
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:46:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at async registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:91:5)
+2025-07-21 23:10:59 [ERROR]: POST /api/v1/schools → 409: Email already registered
+2025-07-21 23:10:59 [ERROR]: ConflictError: Email already registered
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:59:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:11:36 [ERROR]: ✖ Template [OTP_VERIFICATION] not found
+2025-07-21 23:12:23 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-07-21 23:12:23 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:186:23)
+2025-07-21 23:14:04 [ERROR]: POST /api/v1/schools/register → 400: Password minimum 8 chars, Terms must be accepted
+2025-07-21 23:14:04 [ERROR]: BadRequestError: Password minimum 8 chars, Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:40:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:20:12 [ERROR]: POST /api/v1/schools → 400: Terms must be accepted
+2025-07-21 23:20:12 [ERROR]: BadRequestError: Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:40:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:21:22 [ERROR]: POST /api/v1/schools → 400: Terms must be accepted
+2025-07-21 23:21:22 [ERROR]: BadRequestError: Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:40:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 23:22:46 [ERROR]: POST /api/v1/schools → 403: Forbidden
+2025-07-21 23:22:46 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:34:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-21 23:24:16 [ERROR]: ✖ Template [OTP_VERIFICATION] not found
+2025-07-21 23:25:04 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-07-21 23:25:04 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:186:23)
+2025-07-21 23:25:40 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-07-21 23:25:40 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:186:23)
+2025-07-22 00:57:51 [ERROR]: GET /api/v1/admin/dashboard → 401: Invalid or expired token
+2025-07-22 00:57:51 [ERROR]: UnauthorizedError: Invalid or expired token
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:36:11
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-22 00:57:59 [ERROR]: GET /api/v1/admin/dashboard → 401: Authentication token missing
+2025-07-22 00:57:59 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-22 01:06:56 [ERROR]: POST /api/v1/schools → 401: Authentication token missing
+2025-07-22 01:06:56 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-22 01:08:09 [ERROR]: POST /api/v1/schools → 401: Authentication token missing
+2025-07-22 01:08:09 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-22 08:04:00 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted, Affiliation number is required, Location is required, Valid Indian pincode is required, Strength must be at least 1
+2025-07-22 08:04:00 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted, Affiliation number is required, Location is required, Valid Indian pincode is required, Strength must be at least 1
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 08:05:39 [ERROR]: POST /api/v1/schools/register → 400: Terms must be accepted
+2025-07-22 08:05:39 [ERROR]: BadRequestError: Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 08:07:19 [ERROR]: POST /api/v1/schools/register → 400: Terms must be accepted
+2025-07-22 08:07:19 [ERROR]: BadRequestError: Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:10:00 [ERROR]: POST /api/v1/schools/register → 400: Terms must be accepted
+2025-07-22 10:10:00 [ERROR]: BadRequestError: Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:11:33 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 10:12:23 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:12:23 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:111:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:13:20 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 10:14:27 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:14:27 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:111:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:15:07 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-07-22 10:15:07 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:176:23)
+2025-07-22 10:48:57 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 10:50:09 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:50:09 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:100:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:50:32 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:50:32 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:100:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:52:43 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 10:53:24 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:53:24 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:100:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:57:24 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:57:24 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:100:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 10:57:44 [ERROR]: POST /api/v1/schools/resend-otp → 400: Expected double-quoted property name in JSON at position 32 (line 3 column 1)
+2025-07-22 10:57:44 [ERROR]: SyntaxError: Expected double-quoted property name in JSON at position 32 (line 3 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/types/json.js:77:19)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-07-22 10:57:55 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 10:58:27 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-22 10:58:27 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:100:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-22 11:08:36 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 11:08:53 [ERROR]: ❌ SMTP fallback failed: connect ECONNREFUSED ::1:465
+2025-07-22 11:57:10 [ERROR]: POST /api/v1/schools/veri → 401: Authentication token missing
+2025-07-22 11:57:10 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-07-22 11:58:14 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-07-22 11:58:14 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:186:23)
+2025-07-24 02:06:09 [ERROR]: ✖ Twilio credentials (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER) are missing
+2025-07-24 02:08:49 [ERROR]: ✖ Twilio credentials (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER) are missing
+2025-07-24 02:08:51 [ERROR]: ✖ Twilio credentials (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER) are missing
+2025-07-24 02:09:09 [ERROR]: ✖ Twilio credentials (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER) are missing
+2025-07-24 02:24:04 [ERROR]: POST /api/v1/schools/register → 400: Valid contact number is required, Valid Indian pincode is required, Invalid schoolUpto
+2025-07-24 02:24:04 [ERROR]: BadRequestError: Valid contact number is required, Valid Indian pincode is required, Invalid schoolUpto
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:24:45 [ERROR]: POST /api/v1/schools/register → 400: Valid Indian pincode is required
+2025-07-24 02:24:45 [ERROR]: BadRequestError: Valid Indian pincode is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:25:49 [ERROR]: POST /api/v1/schools/register → 400: Valid Indian pincode is required
+2025-07-24 02:25:49 [ERROR]: BadRequestError: Valid Indian pincode is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:26:06 [ERROR]: POST /api/v1/schools/register → 400: Valid Indian pincode is required
+2025-07-24 02:26:06 [ERROR]: BadRequestError: Valid Indian pincode is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:27:00 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: schoolUpto: Cast to string failed for value "[ 'V', 'X', 'XII' ]" (type Array) at path "schoolUpto"
+2025-07-24 02:27:00 [ERROR]: ValidationError: School validation failed: schoolUpto: Cast to string failed for value "[ 'V', 'X', 'XII' ]" (type Array) at path "schoolUpto"
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at model.$set (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:1480:12)
+    at model.$set (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:1132:16)
+    at model.Document (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:178:12)
+    at model.Model (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:127:12)
+    at new model (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:4836:15)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:2786:20
+    at Array.map (<anonymous>)
+    at Function.create (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:2774:34)
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:55:33)
+2025-07-24 02:27:31 [ERROR]: POST /api/v1/schools/register → 400: Valid Indian pincode is required, Invalid schoolUpto
+2025-07-24 02:27:31 [ERROR]: BadRequestError: Valid Indian pincode is required, Invalid schoolUpto
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:27:56 [ERROR]: POST /api/v1/schools/register → 400: Valid Indian pincode is required
+2025-07-24 02:27:56 [ERROR]: BadRequestError: Valid Indian pincode is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:42:16 [ERROR]: POST /api/v1/schools/register → 400: Valid contact number is required, Valid Indian pincode is required, Invalid schoolUpto
+2025-07-24 02:42:16 [ERROR]: BadRequestError: Valid contact number is required, Valid Indian pincode is required, Invalid schoolUpto
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:43:12 [ERROR]: POST /api/v1/schools/register → 500: School validation failed: schoolUpto: Cast to string failed for value "[ 'V', 'X', 'XII' ]" (type Array) at path "schoolUpto"
+2025-07-24 02:43:12 [ERROR]: ValidationError: School validation failed: schoolUpto: Cast to string failed for value "[ 'V', 'X', 'XII' ]" (type Array) at path "schoolUpto"
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at model.$set (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:1480:12)
+    at model.$set (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:1132:16)
+    at model.Document (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:178:12)
+    at model.Model (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:127:12)
+    at new model (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:4836:15)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:2786:20
+    at Array.map (<anonymous>)
+    at Function.create (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/model.js:2774:34)
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:55:33)
+2025-07-24 02:43:26 [ERROR]: ❌ Failed to send SMS OTP to +919876543210: The number +91987654XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91987654XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-07-24 02:49:03 [ERROR]: POST /api/v1/schools/verify-otp → 400: Valid email is required, OTP must be 6 digits
+2025-07-24 02:49:03 [ERROR]: BadRequestError: Valid email is required, OTP must be 6 digits
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:50:13 [ERROR]: POST /api/v1/schools/verify-otp → 400: Valid email is required, OTP must be 6 digits
+2025-07-24 02:50:13 [ERROR]: BadRequestError: Valid email is required, OTP must be 6 digits
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:50:37 [ERROR]: POST /api/v1/schools/verify-otp → 400: Valid email is required, OTP must be 6 digits
+2025-07-24 02:50:37 [ERROR]: BadRequestError: Valid email is required, OTP must be 6 digits
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:51:32 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-24 02:51:32 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:101:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 02:56:59 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-07-24 02:56:59 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:101:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 03:11:58 [ERROR]: POST /api/v1/schools/login → 400: Valid email is required
+2025-07-24 03:11:58 [ERROR]: BadRequestError: Valid email is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 03:12:12 [ERROR]: POST /api/v1/schools/login → 400: Valid email is required
+2025-07-24 03:12:12 [ERROR]: BadRequestError: Valid email is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 03:13:32 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-07-24 03:13:32 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:185:23)
+2025-07-24 03:14:12 [ERROR]: POST /api/v1/schools/login → 400: Valid email is required
+2025-07-24 03:14:12 [ERROR]: BadRequestError: Valid email is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 09:32:56 [ERROR]: ❌ Super‑admin seeding failed: Admin validation failed: fullName: Path `fullName` is required.
+2025-07-24 10:55:36 [ERROR]: POST /api/v1/schools/register → 409: Email already registered
+2025-07-24 10:55:36 [ERROR]: ConflictError: Email already registered
+    at registerSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:47:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 10:55:48 [ERROR]: POST /api/v1/schools/verify-otp → 400: Account already verified
+2025-07-24 10:55:48 [ERROR]: BadRequestError: Account already verified
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:100:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 11:00:34 [ERROR]: POST /api/v1/schools/requirements → 400: Invalid type, minExperience must be non-negative, minQualification is required, Invalid gender, noOfCandidates must be at least 1
+2025-07-24 11:00:34 [ERROR]: BadRequestError: Invalid type, minExperience must be non-negative, minQualification is required, Invalid gender, noOfCandidates must be at least 1
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 11:01:32 [ERROR]: POST /api/v1/schools/requirements → 400: Invalid type, Qualification is required, Experience must be non-negative
+2025-07-24 11:01:32 [ERROR]: BadRequestError: Invalid type, Qualification is required, Experience must be non-negative
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 11:43:13 [ERROR]: POST /api/v1/auth/register → 500: "contact" is not allowed
+2025-07-24 11:43:13 [ERROR]: ValidationError: "contact" is not allowed
+2025-07-24 11:55:26 [ERROR]: POST /api/v1/auth/register → 500: Candidate validation failed: position: Path `position` is required., type: Path `type` is required., contact: Path `contact` is required.
+2025-07-24 11:55:26 [ERROR]: ValidationError: Candidate validation failed: position: Path `position` is required., type: Path `type` is required., contact: Path `contact` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 11:56:43 [ERROR]: POST /api/v1/auth/register → 500: "contact" is not allowed
+2025-07-24 11:56:43 [ERROR]: ValidationError: "contact" is not allowed
+2025-07-24 11:56:53 [ERROR]: POST /api/v1/auth/register → 500: "type" is not allowed
+2025-07-24 11:56:53 [ERROR]: ValidationError: "type" is not allowed
+2025-07-24 11:57:07 [ERROR]: POST /api/v1/auth/register → 500: "position" is not allowed
+2025-07-24 11:57:07 [ERROR]: ValidationError: "position" is not allowed
+2025-07-24 11:57:12 [ERROR]: POST /api/v1/auth/register → 500: "address" is not allowed
+2025-07-24 11:57:12 [ERROR]: ValidationError: "address" is not allowed
+2025-07-24 11:57:16 [ERROR]: POST /api/v1/auth/register → 500: "city" is not allowed
+2025-07-24 11:57:16 [ERROR]: ValidationError: "city" is not allowed
+2025-07-24 11:57:26 [ERROR]: POST /api/v1/auth/register → 500: "state" is not allowed
+2025-07-24 11:57:26 [ERROR]: ValidationError: "state" is not allowed
+2025-07-24 11:57:32 [ERROR]: POST /api/v1/auth/register → 500: "pinCode" is not allowed
+2025-07-24 11:57:32 [ERROR]: ValidationError: "pinCode" is not allowed
+2025-07-24 11:57:39 [ERROR]: POST /api/v1/auth/register → 500: "preferredLocations" is not allowed
+2025-07-24 11:57:39 [ERROR]: ValidationError: "preferredLocations" is not allowed
+2025-07-24 11:57:45 [ERROR]: POST /api/v1/auth/register → 500: "dob" is not allowed
+2025-07-24 11:57:45 [ERROR]: ValidationError: "dob" is not allowed
+2025-07-24 11:57:51 [ERROR]: POST /api/v1/auth/register → 500: "gender" is not allowed
+2025-07-24 11:57:51 [ERROR]: ValidationError: "gender" is not allowed
+2025-07-24 11:57:54 [ERROR]: POST /api/v1/auth/register → 500: "maritalStatus" is not allowed
+2025-07-24 11:57:54 [ERROR]: ValidationError: "maritalStatus" is not allowed
+2025-07-24 11:57:57 [ERROR]: POST /api/v1/auth/register → 400: Expected double-quoted property name in JSON at position 168 (line 9 column 1)
+2025-07-24 11:57:57 [ERROR]: SyntaxError: Expected double-quoted property name in JSON at position 168 (line 9 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/types/json.js:77:19)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-07-24 11:58:05 [ERROR]: POST /api/v1/auth/register → 500: Candidate validation failed: position: Path `position` is required., type: Path `type` is required., contact: Path `contact` is required.
+2025-07-24 11:58:05 [ERROR]: ValidationError: Candidate validation failed: position: Path `position` is required., type: Path `type` is required., contact: Path `contact` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 13:49:39 [ERROR]: GET /api/v1/candidates/status → 500: Class constructor ObjectId cannot be invoked without 'new'
+2025-07-24 13:49:39 [ERROR]: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at Module.getCandidateStatus (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/candidateService.js:20:30)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:150:39
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:295:15
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+2025-07-24 13:50:54 [ERROR]: GET /api/v1/candidates/status → 500: Class constructor ObjectId cannot be invoked without 'new'
+2025-07-24 13:50:54 [ERROR]: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at Module.getCandidateStatus (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/candidateService.js:20:30)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:150:39
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:295:15
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+2025-07-24 13:52:10 [ERROR]: GET /api/v1/candidates/status → 500: Class constructor ObjectId cannot be invoked without 'new'
+2025-07-24 13:52:10 [ERROR]: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at Module.getCandidateStatus (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/candidateService.js:20:30)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:150:39
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:295:15
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+2025-07-24 13:57:08 [ERROR]: uploadTestimonial error: Invalid education index
+2025-07-24 13:57:08 [ERROR]: POST /api/v1/candidates/upload → 400: Invalid education index
+2025-07-24 13:57:08 [ERROR]: BadRequestError: Invalid education index
+    at uploadTestimonial (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:89:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 14:26:10 [ERROR]: ❌ Super‑admin seeding failed: getaddrinfo ENOTFOUND ac-xu9bu6a-shard-00-00.4sw5gaz.mongodb.net
+2025-07-24 15:21:24 [ERROR]: POST /api/v1/candidates/trigger-notification → 500: io.to is not a function
+2025-07-24 15:21:24 [ERROR]: TypeError: io.to is not a function
+    at sendInAppNotification (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/utils/notificationService.js:24:6)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/candidateRoutes.js:89:7
+2025-07-24 15:24:45 [ERROR]: POST /api/v1/candidates/trigger-notification → 500: Notification validation failed: roleRef: Path `roleRef` is required.
+2025-07-24 15:24:45 [ERROR]: ValidationError: Notification validation failed: roleRef: Path `roleRef` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 15:26:32 [ERROR]: POST /api/v1/candidates/trigger-notification → 500: Notification validation failed: roleRef: Path `roleRef` is required.
+2025-07-24 15:26:32 [ERROR]: ValidationError: Notification validation failed: roleRef: Path `roleRef` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 15:29:08 [ERROR]: POST /api/v1/candidates/trigger-notification → 500: router is not defined
+2025-07-24 15:29:08 [ERROR]: ReferenceError: router is not defined
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/utils/notificationService.js:10:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/candidateRoutes.js:88:41
+2025-07-24 15:34:27 [ERROR]: POST /api/v1/auth/register → 500: "pincode" is not allowed
+2025-07-24 15:34:27 [ERROR]: ValidationError: "pincode" is not allowed
+2025-07-24 15:35:47 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-07-24 15:35:47 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:88:3
+2025-07-24 15:36:29 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-07-24 15:36:29 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:88:3
+2025-07-24 16:02:26 [ERROR]: POST /api/v1/auth/login → 500: "role" is required
+2025-07-24 16:02:26 [ERROR]: ValidationError: "role" is required
+2025-07-24 16:03:12 [ERROR]: POST /api/v1/auth/login → 401: Invalid credentials
+2025-07-24 16:03:12 [ERROR]: UnauthorizedError: Invalid credentials
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:108:21
+2025-07-24 16:04:24 [ERROR]: POST /api/v1/auth/login → 401: Invalid credentials
+2025-07-24 16:04:24 [ERROR]: UnauthorizedError: Invalid credentials
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:102:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-24 16:58:23 [ERROR]: GET /api/v1/admin/schools → 403: Forbidden
+2025-07-24 16:58:23 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-24 16:59:31 [ERROR]: GET /api/v1/admin/schools → 403: Forbidden
+2025-07-24 16:59:31 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-24 17:14:32 [ERROR]: GET /api/v1/admin/schools → 403: Forbidden
+2025-07-24 17:14:32 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-24 17:20:39 [ERROR]: GET /api/v1/admin/schools → 403: Forbidden
+2025-07-24 17:20:39 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-07-24 17:27:16 [ERROR]: POST /api/v1/admin/invite → 500: Admin validation failed: fullName: Path `fullName` is required.
+2025-07-24 17:27:16 [ERROR]: ValidationError: Admin validation failed: fullName: Path `fullName` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 17:28:06 [ERROR]: POST /api/v1/admin/invite → 500: Admin validation failed: fullName: Path `fullName` is required.
+2025-07-24 17:28:06 [ERROR]: ValidationError: Admin validation failed: fullName: Path `fullName` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 17:31:04 [ERROR]: POST /api/v1/admin/invite → 500: Admin validation failed: fullName: Path `fullName` is required.
+2025-07-24 17:31:04 [ERROR]: ValidationError: Admin validation failed: fullName: Path `fullName` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 17:33:20 [ERROR]: POST /api/v1/admin/invite → 500: Admin validation failed: fullName: Path `fullName` is required.
+2025-07-24 17:33:20 [ERROR]: ValidationError: Admin validation failed: fullName: Path `fullName` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 17:33:28 [ERROR]: POST /api/v1/admin/invite → 500: Admin validation failed: fullName: Path `fullName` is required.
+2025-07-24 17:33:28 [ERROR]: ValidationError: Admin validation failed: fullName: Path `fullName` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3352:32)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-24 18:18:43 [ERROR]: ❌ Super‑admin seeding failed: Admin validation failed: fullName: Path `fullName` is required.
+2025-08-03 01:21:16 [ERROR]: ❌ Super‑admin seeding failed: Admin validation failed: fullName: Path `fullName` is required.
+2025-08-03 01:26:40 [ERROR]: ❌ Super‑admin seeding failed: E11000 duplicate key error collection: test.admins index: email_1 dup key: { email: "chayansh@gmail.com" }
+2025-08-03 01:30:50 [ERROR]: ❌ Super‑admin seeding failed: E11000 duplicate key error collection: test.admins index: email_1 dup key: { email: "chayansh@gmail.com" }
+2025-08-03 01:34:24 [ERROR]: ❌ Super‑admin seeding failed: E11000 duplicate key error collection: test.admins index: email_1 dup key: { email: "chayansh@gmail.com" }
+2025-08-03 01:43:45 [ERROR]: Seeder error: seed is not defined
+2025-08-03 02:14:37 [ERROR]: ✖ Template [OTP_VERIFICATION] not found
+2025-08-03 02:14:37 [ERROR]: POST /api/v1/auth/register → 500: Email template [OTP_VERIFICATION] not found
+2025-08-03 02:14:37 [ERROR]: InternalServerError: Email template [OTP_VERIFICATION] not found
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:46:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:69:5
+2025-08-03 23:47:14 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-03 23:47:14 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-03 23:48:26 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-03 23:48:26 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:25:23 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted, Affiliation number is required, Location is required, Valid Indian pincode is required, Strength must be at least 1
+2025-08-04 00:25:23 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted, Affiliation number is required, Location is required, Valid Indian pincode is required, Strength must be at least 1
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:26:55 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted
+2025-08-04 00:26:55 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:29:41 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-04 00:36:15 [ERROR]: POST /api/v1/schools/verify-otp → 500: auditLogger is not a function
+2025-08-04 00:36:15 [ERROR]: TypeError: auditLogger is not a function
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:95:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:42:32 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-04 00:43:30 [ERROR]: POST /api/v1/schools/verify-otp → 500: auditLogger is not a function
+2025-08-04 00:43:30 [ERROR]: TypeError: auditLogger is not a function
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:95:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:43:57 [ERROR]: POST /api/v1/schools/verify-otp → 400: Account already verified
+2025-08-04 00:43:57 [ERROR]: BadRequestError: Account already verified
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:69:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:45:07 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-04 00:46:38 [ERROR]: POST /api/v1/schools/login → 400: Valid email is required, Password is required
+2025-08-04 00:46:38 [ERROR]: BadRequestError: Valid email is required, Password is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:47:19 [ERROR]: POST /api/v1/schools/login → 400: Valid email is required
+2025-08-04 00:47:19 [ERROR]: BadRequestError: Valid email is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:33:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 00:56:33 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-04 00:58:50 [ERROR]: POST /api/v1/schools/login → 400: Username or email is required
+2025-08-04 00:58:50 [ERROR]: BadRequestError: Username or email is required
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:31:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:00:31 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-04 01:00:31 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:144:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:01:15 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-04 01:01:15 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:144:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:02:22 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-04 01:02:22 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:144:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:08:30 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-04 01:10:35 [ERROR]: POST /api/v1/schools/verify-otp → 400: Account already verified
+2025-08-04 01:10:35 [ERROR]: BadRequestError: Account already verified
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:70:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:11:51 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-04 01:13:03 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-04 01:13:03 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:144:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:14:50 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-04 01:14:50 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:144:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 01:43:12 [ERROR]: updateCandidateProfile error: Cannot destructure property 'type' of 'req.body' as it is undefined.
+2025-08-04 01:43:12 [ERROR]: PUT /api/v1/candidates/profile → 500: Cannot destructure property 'type' of 'req.body' as it is undefined.
+2025-08-04 01:43:12 [ERROR]: TypeError: Cannot destructure property 'type' of 'req.body' as it is undefined.
+    at updateCandidateProfile (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:59:13)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/candidateRoutes.js:32:5
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+2025-08-04 01:43:31 [ERROR]: updateCandidateProfile error: Cannot destructure property 'type' of 'req.body' as it is undefined.
+2025-08-04 01:43:31 [ERROR]: PUT /api/v1/candidates/profile → 500: Cannot destructure property 'type' of 'req.body' as it is undefined.
+2025-08-04 01:43:31 [ERROR]: TypeError: Cannot destructure property 'type' of 'req.body' as it is undefined.
+    at updateCandidateProfile (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:59:13)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/candidateRoutes.js:32:5
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+2025-08-04 01:46:55 [ERROR]: updateCandidateProfile error: No updatable profile fields found in request
+2025-08-04 01:46:55 [ERROR]: PUT /api/v1/candidates/profile → 400: No updatable profile fields found in request
+2025-08-04 01:46:55 [ERROR]: BadRequestError: No updatable profile fields found in request
+    at updateCandidateProfile (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/candidateController.js:85:13)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/candidateRoutes.js:32:5
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+2025-08-04 01:50:34 [ERROR]: updateCandidateProfile error: Validation failed: education.0.level: Path `level` is required., experience.0.from: Path `from` is required.
+2025-08-04 01:50:34 [ERROR]: PUT /api/v1/candidates/profile → 500: Validation failed: education.0.level: Path `level` is required., experience.0.from: Path `from` is required.
+2025-08-04 01:50:34 [ERROR]: ValidationError: Validation failed: education.0.level: Path `level` is required., experience.0.from: Path `from` is required.
+    at _done (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/helpers/updateValidators.js:231:19)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/helpers/updateValidators.js:207:11
+    at schemaPath.doValidate.updateValidator (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/helpers/updateValidators.js:140:20)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/mongoose/lib/schema/subdocument.js:275:50
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-04 02:37:00 [ERROR]: POST /api/v1/candidates/dashboard → 401: Authentication token missing
+2025-08-04 02:37:00 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-08-04 13:20:59 [ERROR]: PUT /api/v1/schools/profile → 500: Cannot read properties of undefined (reading 'name')
+2025-08-04 13:20:59 [ERROR]: TypeError: Cannot read properties of undefined (reading 'name')
+    at updateSchoolProfile (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:158:19)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at validate (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/schoolRoutes.js:32:3)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+2025-08-04 13:22:17 [ERROR]: POST /api/v1/schools/requirements → 401: Authentication token missing
+2025-08-04 13:22:17 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+2025-08-05 00:00:00 [ERROR]: Scheduler suspend error: Connection to ac-xu9bu6a-shard-00-01.4sw5gaz.mongodb.net:27017 interrupted due to server monitor timeout
+2025-08-05 02:06:44 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-05 02:06:44 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-08-05 02:07:35 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-05 02:07:35 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:22:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-08-05 02:22:15 [ERROR]: POST /api/v1/admin/push → 500: require is not defined
+2025-08-05 02:22:15 [ERROR]: ReferenceError: require is not defined
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/routes/pushRoutes.js:20:34
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-05 02:25:00 [ERROR]: ✖ Template [GENERAL_UPDATE] not found. Admin must (re-)seed templates
+2025-08-05 02:25:01 [ERROR]: pushCandidates error: Email template [GENERAL_UPDATE] not found
+2025-08-05 02:25:01 [ERROR]: POST /api/v1/admin/push → 500: Email template [GENERAL_UPDATE] not found
+2025-08-05 02:25:01 [ERROR]: InternalServerError: Email template [GENERAL_UPDATE] not found
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:46:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async pushCandidates (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/pushController.js:44:5)
+2025-08-05 02:30:55 [ERROR]: Notification send error Notification validation failed: roleRef: `school` is not a valid enum value for path `roleRef`., type: `candidatesPushed` is not a valid enum value for path `type`.
+2025-08-05 02:34:24 [ERROR]: POST /api/v1/shortlists → 500: Cannot destructure property 'candidate' of 'req.body' as it is undefined.
+2025-08-05 02:34:24 [ERROR]: TypeError: Cannot destructure property 'candidate' of 'req.body' as it is undefined.
+    at upsertShortlist (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/shortlistController.js:9:13)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:24:5
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+2025-08-05 02:44:43 [ERROR]: POST /api/v1/interviews → 500: Cannot destructure property 'candidate' of 'req.body' as it is undefined.
+2025-08-05 02:44:43 [ERROR]: TypeError: Cannot destructure property 'candidate' of 'req.body' as it is undefined.
+    at upsertInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:9:13)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:24:5
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+2025-08-05 02:46:32 [ERROR]: POST /api/v1/interviews → 500: Cannot destructure property 'candidate' of 'req.body' as it is undefined.
+2025-08-05 02:46:32 [ERROR]: TypeError: Cannot destructure property 'candidate' of 'req.body' as it is undefined.
+    at upsertInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:9:13)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:24:5
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:33:5
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+2025-08-05 02:48:55 [ERROR]: PUT /api/v1/interviews/68912336eb007afb239a38dd/complete → 401: Authentication token missing
+2025-08-05 02:48:55 [ERROR]: UnauthorizedError: Authentication token missing
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:24:21
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/asyncHandler.js:6:16
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:295:15
+    at param (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:600:14)
+    at param (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:610:14)
+2025-08-05 02:55:03 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-05 02:55:03 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-05 02:57:03 [ERROR]: PUT /api/v1/interviews/688fb03676d2d01923464b5a/complete → 404: Interview not found
+2025-08-05 02:57:03 [ERROR]: NotFoundError: Interview not found
+    at completeInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:27:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-05 02:57:21 [ERROR]: PUT /api/v1/interviews/688fb03676d2d01923464b5a/complete → 404: Interview not found
+2025-08-05 02:57:21 [ERROR]: NotFoundError: Interview not found
+    at completeInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:27:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-05 02:58:25 [ERROR]: PUT /api/v1/interviews/688fb03676d2d01923464b5a/complete → 404: Interview not found
+2025-08-05 02:58:25 [ERROR]: NotFoundError: Interview not found
+    at completeInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:27:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-05 03:01:16 [ERROR]: PUT /api/v1/interviews/688fb03676d2d01923464b5a/complete → 404: Interview not found
+2025-08-05 03:01:16 [ERROR]: NotFoundError: Interview not found
+    at completeInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:27:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-06 16:53:57 [ERROR]: Notification send error Notification validation failed: roleRef: `school` is not a valid enum value for path `roleRef`., type: `candidatesPushed` is not a valid enum value for path `type`.
+2025-08-06 16:54:09 [ERROR]: Notification send error Notification validation failed: roleRef: `candidate` is not a valid enum value for path `roleRef`., type: `shortlisted` is not a valid enum value for path `type`.
+2025-08-06 16:54:49 [ERROR]: Notification send error Notification validation failed: roleRef: `candidate` is not a valid enum value for path `roleRef`., type: `interviewScheduled` is not a valid enum value for path `type`.
+2025-08-06 16:55:07 [ERROR]: PUT /api/v1/interviews/68912597eb007afb239a38e0/complete → 404: Interview not found
+2025-08-06 16:55:07 [ERROR]: NotFoundError: Interview not found
+    at completeInterview (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/interviewController.js:47:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-06 16:55:37 [ERROR]: Notification send error Notification validation failed: roleRef: `candidate` is not a valid enum value for path `roleRef`., type: `interviewResult` is not a valid enum value for path `type`.
+2025-08-07 00:27:59 [ERROR]: ❌ Failed to send SMS OTP to +919955559999: The number +91995555XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91995555XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+2025-08-07 00:34:19 [ERROR]: ❌ SMTP fallback failed: 00DF38F001000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-07 00:34:19 [ERROR]: PUT /api/v1/schools/requirements/6893a709699f7d4c9b9bd4e4 → 500: Email sending failed via all transports
+2025-08-07 00:34:19 [ERROR]: InternalServerError: Email sending failed via all transports
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:66:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateRequirement (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:291:5)
+2025-08-07 00:35:19 [ERROR]: ❌ SMTP fallback failed: 00DF38F001000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-07 00:35:19 [ERROR]: PUT /api/v1/schools/requirements/6893a709699f7d4c9b9bd4e4 → 500: Email sending failed via all transports
+2025-08-07 00:35:19 [ERROR]: InternalServerError: Email sending failed via all transports
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:66:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateRequirement (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:291:5)
+2025-08-07 00:36:16 [ERROR]: ❌ SMTP fallback failed: 00DF38F001000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-07 00:36:16 [ERROR]: PUT /api/v1/schools/requirements/6893a709699f7d4c9b9bd4e4 → 500: Email sending failed via all transports
+2025-08-07 00:36:16 [ERROR]: InternalServerError: Email sending failed via all transports
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:66:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateRequirement (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:291:5)
+2025-08-07 00:37:03 [ERROR]: ❌ SMTP fallback failed: 00DF38F001000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-07 00:37:03 [ERROR]: PUT /api/v1/schools/requirements/6893a709699f7d4c9b9bd4e4 → 500: Email sending failed via all transports
+2025-08-07 00:37:03 [ERROR]: InternalServerError: Email sending failed via all transports
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:66:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateRequirement (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:291:5)
+2025-08-07 00:37:49 [ERROR]: ❌ SMTP fallback failed: 00DF38F001000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-07 00:37:49 [ERROR]: PUT /api/v1/schools/requirements/6893a709699f7d4c9b9bd4e4 → 500: Email sending failed via all transports
+2025-08-07 00:37:49 [ERROR]: InternalServerError: Email sending failed via all transports
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:66:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateRequirement (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:291:5)
+2025-08-07 00:38:02 [ERROR]: ❌ SMTP fallback failed: 00DF38F001000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-07 00:38:02 [ERROR]: PUT /api/v1/schools/requirements/6893a709699f7d4c9b9bd4e4 → 500: Email sending failed via all transports
+2025-08-07 00:38:02 [ERROR]: InternalServerError: Email sending failed via all transports
+    at sendEmail (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/services/commService.js:66:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateRequirement (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/schoolController.js:291:5)
+2025-08-07 00:44:00 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-07 00:44:00 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+2025-08-07 00:45:19 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-07 00:45:19 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+2025-08-07 00:50:03 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-07 00:50:03 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+2025-08-07 00:53:57 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-07 00:53:57 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+2025-08-07 00:54:02 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-07 00:54:02 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+2025-08-07 01:04:29 [ERROR]: POST /api/v1/admin/push → 403: Forbidden
+2025-08-07 01:04:29 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+2025-08-07 01:05:28 [ERROR]: POST /api/v1/shortlists → 403: Forbidden
+2025-08-07 01:05:28 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:295:15
+2025-08-07 01:13:38 [ERROR]: POST /api/v1/shortlists → 400: Cannot hire candidate without completed interview
+2025-08-07 01:13:38 [ERROR]: BadRequestError: Cannot hire candidate without completed interview
+    at upsertShortlist (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/shortlistController.js:24:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-07 01:16:46 [ERROR]: pushCandidates error: Requirement not found
+2025-08-07 01:16:46 [ERROR]: POST /api/v1/admin/push → 404: Requirement not found
+2025-08-07 01:16:46 [ERROR]: NotFoundError: Requirement not found
+    at pushCandidates (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/pushController.js:21:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-07 01:19:33 [ERROR]: pushCandidates error: One or more candidates already pushed to this requirement
+2025-08-07 01:19:33 [ERROR]: POST /api/v1/admin/push → 409: One or more candidates already pushed to this requirement
+2025-08-07 01:19:33 [ERROR]: ConflictError: One or more candidates already pushed to this requirement
+    at pushCandidates (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/pushController.js:30:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-07 02:02:25 [ERROR]: POST /api/v1/auth/login → 401: Invalid credentials
+2025-08-07 02:02:25 [ERROR]: UnauthorizedError: Invalid credentials
+    at file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/controllers/authController.js:102:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-07 02:02:27 [ERROR]: POST /api/v1/candidates/draft → 401: Authentication token missing
+2025-08-07 02:02:27 [ERROR]: UnauthorizedError: Authentication token missing
+    at verifyToken (file:///Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/middleware/authMiddleware.js:23:27)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:186:3)
+    at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
