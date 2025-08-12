@@ -66,14 +66,11 @@ export const register = asyncHandler(async (req, res) => {
 
   const otp = await generateOtpToken(user._id);
   if (!IS_TEST) {
-    await sendEmail('OTP_VERIFICATION', email, {
-      name: details.fullName || details.name || '',
-      otp
-    });
-    await sendOTP(email, otp);
+    // This correctly uses the sendOTP helper to send a single email.
+    await sendOTP(email, otp, details.fullName || details.name || '');
   }
 
-  res.status(201).json({ success: true, userId: user._id });
+  res.status(201).json({ success: true, message: "Registration successful. Please check your email for the OTP.", userId: user._id });
 });
 
 export const verifyOtp = asyncHandler(async (req, res) => {
@@ -91,7 +88,11 @@ export const verifyOtp = asyncHandler(async (req, res) => {
 
   const role  = user.constructor.modelName.toLowerCase();
   const token = signToken({ id: user._id, role });
-  res.json({ success: true, token });
+  
+  const userObject = user.toObject();
+  delete userObject.password;
+
+  res.json({ success: true, token, user: userObject });
 });
 
 export const login = asyncHandler(async (req, res) => {
@@ -100,6 +101,7 @@ export const login = asyncHandler(async (req, res) => {
   const Model = getModelByRole(role);
   const user = await Model.findOne({ email }).select('+password +verified');
   if (!user) throw createError(401, 'Invalid credentials');
+  
   if (role !== 'admin' && !user.verified) {
     throw createError(403, 'Please verify your email before logging in');
   }
@@ -108,10 +110,14 @@ export const login = asyncHandler(async (req, res) => {
   if (!match) throw createError(401, 'Invalid credentials');
 
   const token = signToken({ id: user._id, role });
+  
+  const userObject = user.toObject();
+  delete userObject.password;
+
   res.json({
     success: true,
     token,
-    user: { _id: user._id, email, role }
+    user: userObject
   });
 });
 
@@ -126,7 +132,8 @@ export const forgotPassword = asyncHandler(async (req, res) => {
 
   const resetToken = await generateResetToken(user._id);
   if (!IS_TEST) {
-    await sendEmail('RESET_PASSWORD', email, { token: resetToken });
+    // THE FIX: The redundant sendEmail call has been removed.
+    // We now only call sendOTP for password resets as well.
     await sendOTP(email, resetToken);
   }
 
