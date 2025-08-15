@@ -7,6 +7,7 @@ import Admin from '../models/admin.js';
 import School from '../models/schools.js';
 import Requirement from '../models/requirements.js';
 import PushedCandidate from '../models/pushedCandidate.js';
+import Candidate from '../models/candidate.js';
 import {auditLogger} from '../utils/auditLogger.js';
 
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -41,7 +42,6 @@ export async function inviteAdmin(req, res, next) {
 export async function loginAdmin(req, res, next) {
   try {
     const { email, password } = req.body;
-    // Ensure 'role' is selected!
     const admin = await Admin.findOne({ email }).select('+password role');
     if (!admin || !(await bcrypt.compare(password, admin.password))) {
       throw createError(401, 'Invalid credentials');
@@ -80,6 +80,22 @@ export async function getAllRequirements(req, res, next) {
   }
 }
 
+// --- NEW FUNCTION ADDED ---
+// This function handles fetching a single requirement by its ID for an admin.
+export async function getRequirementByIdForAdmin(req, res, next) {
+  try {
+    const { id } = req.params;
+    const requirement = await Requirement.findById(id).populate('school', 'name');
+    if (!requirement) {
+      throw createError(404, 'Requirement not found');
+    }
+    res.json({ success: true, data: requirement });
+  } catch (err) {
+    next(err);
+  }
+}
+// -------------------------
+
 export async function changeRequirementStatus(req, res, next) {
   try {
     const { id } = req.params;
@@ -107,6 +123,15 @@ export async function getAllSchools(req, res, next) {
       .select('-password')
       .sort({ createdAt: -1 });
     res.json({ success: true, data: schools });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function getAllCandidates(req, res, next) {
+  try {
+    const candidates = await Candidate.find().select('-password');
+    res.json({ success: true, data: candidates });
   } catch (err) {
     next(err);
   }

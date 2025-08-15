@@ -25,8 +25,10 @@ export const registerSchool = async (req, res, next) => {
 
     if (await School.exists({ email })) throw createError(409, 'Email already registered');
 
+    // --- FIX: Correctly determine if a fee is required based on the rule ---
     const schoolCount = await School.countDocuments();
-    const registrationFeePaid = schoolCount < 200;
+    const feeIsRequired = schoolCount >= 200;
+    // --------------------------------------------------------------------
 
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
     const otpExpiry = new Date(Date.now() + OTP_EXPIRY_MINUTES * 60000);
@@ -37,9 +39,10 @@ export const registerSchool = async (req, res, next) => {
       acceptedTerms: true,
       verified: false,
       verifiedByAdmin: false,
-      credentialsSent: false,
-      registrationFeePaid,
-      candidatesPostedCount: 0,
+      // --- FIX: Set the correct flags based on the rule ---
+      feeRequired: feeIsRequired,
+      registrationFeePaid: !feeIsRequired, // If fee is not required, mark as paid by default
+      // ----------------------------------------------------
       otp,
       otpExpiry,
     });
@@ -55,9 +58,8 @@ export const registerSchool = async (req, res, next) => {
 
     res.status(201).json({
       success: true,
-      message: `Registration initiated. ${registrationFeePaid ? 'No registration fee required.' : 'Registration fee is required to continue.'} OTP sent via email & SMS.`,
+      message: `Registration initiated. ${!feeIsRequired ? 'No registration fee required as part of our initial launch offer.' : 'Registration fee is required to continue.'} OTP sent via email & SMS.`,
       schoolId: school._id,
-      registrationFeePaid,
     });
   } catch (err) {
     next(err);
@@ -76,7 +78,6 @@ export const verifySchoolOTP = async (req, res, next) => {
       throw createError(400, 'Invalid or expired OTP');
     }
 
-    // Assign username and generate temporary password
     const username = generateUsername(school.name);
     const tempPassword = Math.random().toString(36).slice(-10);
     school.username = username;
@@ -225,11 +226,17 @@ export const postRequirement = async (req, res, next) => {
   try {
     const schoolId = req.user.id;
     const school = await School.findById(schoolId);
-    if (!school.registrationFeePaid) {
+
+    // --- FIX: This check is now more intelligent. ---
+    // It only blocks if a fee is required AND it has not been paid.
+    if (school.feeRequired && !school.registrationFeePaid) {
       return res.status(402).json({
-        success: false, message: 'Registration fee required before posting requirements',
+        success: false, 
+        error: 'Registration fee required before posting requirements.',
       });
     }
+    // ----------------------------------------------
+
     const requirement = await Requirement.create({ ...req.body, school: schoolId });
     auditLogger({
       userId: schoolId,
@@ -239,7 +246,6 @@ export const postRequirement = async (req, res, next) => {
       description: `School ${schoolId} posted requirement ${requirement._id}`
     });
 
-    // Check for school.email
     if (school.email) {
       await sendEmail('REQUIREMENT_POSTED', school.email, {
         schoolName: school.name,
@@ -296,7 +302,6 @@ export const updateRequirement = async (req, res, next) => {
       after: reqDoc.toObject(),
       description: `Requirement ${id} updated`,
     });
-    // Look up the school (again, robustly)
     const school = await School.findById(reqDoc.school);
     if (school?.email) {
       await sendEmail('REQUIREMENT_UPDATED', school.email, {

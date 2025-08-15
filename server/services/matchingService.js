@@ -2,80 +2,75 @@
 
 import axios from "axios";
 import { Engine } from "json-rules-engine";
-// import { getQualificationLevel } from "../config/qualificationTiers.js"; // if needed
+import logger from "../utils/logger.js";
 
 const AI_SERVICE_URL = process.env.AI_MATCHING_SERVICE_URL || "http://localhost:5005/knn-search";
-
-const DEFAULT_RULES = [
-  {
-    conditions: {
-      all: [
-        { fact: "qualification", operator: "contains", value: "B.Ed" },
-        { fact: "experience", operator: "greaterThanInclusive", value: 2 }
-      ]
-    },
-    event: { type: "qualified" }
-  }
-];
-
-const DEFAULT_RULE_WEIGHT = 1.0;
 const DEFAULT_AI_WEIGHT = 0.7;
-
-// Create a flat profile text for a candidate
-function concatProfile(candidate) {
-  const degree = candidate.education?.map(e => e.degree).join(" ") || "";
-  const subjects = candidate.subjects?.join(" ") || "";
-  const exp = candidate.experience
-    ?.map(e => [e.designation, ...(e.subjects || [])].join(" "))
-    .join(" ") || "";
-  return [
-    candidate.position,
-    candidate.type,
-    degree,
-    candidate.skills?.join(" ") || "",
-    exp,
-    subjects,
-    candidate.gender || "",
-    candidate.address || "",
-    candidate.languages?.join(" ") || "",
-    candidate.extraResponsibilities?.join(" ") || ""
-  ].join(" ");
-}
+const DEFAULT_RULE_WEIGHT = 0.3;
 
 export async function matchCandidates(requirement, candidates, options = {}) {
-  // 1. Rule Engine (only pass candidates meeting hard constraints)
-  const engine = new Engine(requirement.rules || DEFAULT_RULES);
-  const passing = [];
-  for (const c of candidates) {
-    // Defensive: Check experience/education not undefined
-    const experienceYears = (c.experience || []).reduce((sum, e) => {
-      if (!e.fromPeriod) return sum;
-      const from = new Date(e.fromPeriod);
-      const to = e.toPeriod ? new Date(e.toPeriod) : new Date();
-      return sum + (to - from) / (1000 * 60 * 60 * 24 * 365.25);
-    }, 0);
-    const facts = {
-      experience: experienceYears,
-      qualification: (c.education || []).map(e => e.degree)
-    };
-    const { events } = await engine.run(facts);
-    if (events.length) passing.push(c);
+  if (!candidates || candidates.length === 0) {
+    return [];
   }
-  if (!passing.length) return [];
 
-  // 2. Prepare AI match request
   const requirementText = [
-    requirement.post,
-    (requirement.subjects || []).join(" "),
-    requirement.teachingOrNonTeaching || "",
-    requirement.qualification || "",
-    (requirement.skills || []).join(" "),
-    requirement.customDescription || ""
-  ].join(" ");
+    `Job Title: ${requirement.title || ""}`, `Position: ${requirement.post || ""}`,
+    `Role Type: ${requirement.teachingOrNonTeaching || ""}`, `Required Qualification: ${requirement.minQualification || ""}`,
+    `Minimum Experience Required: ${requirement.minExperience || 0} years`,
+  ].join(". ");
+  
+  const engine = new Engine();
 
-  // Only match against passing candidate IDs
-  const candidateIds = passing.map(c => String(c._id));
+  engine.addOperator('matchesLocation', (factValue, jsonValue) => {
+    if (!factValue || factValue.length === 0) return true;
+    if (!jsonValue) return true;
+    return factValue.includes(jsonValue);
+  });
 
+  const rules = [{
+    conditions: {
+      all: [
+        { fact: 'qualifications', operator: 'contains', value: requirement.minQualification },
+        { fact: 'experienceYears', operator: 'greaterThanInclusive', value: requirement.minExperience || 0 },
+        { fact: 'expectedSalary', operator: 'lessThanInclusive', value: requirement.maxSalary || 99999999 },
+        { fact: 'preferredLocations', operator: 'matchesLocation', value: requirement.school?.location }
+      ]
+    },
+    event: { type: 'isLogisticalMatch' }
+  }];
+  
+  rules.forEach(rule => engine.addRule(rule));
+  
+  const passingCandidates = [];
+  for (const c of candidates) {
+    // Correctly calculate total experience in years from the full Mongoose document
+    const experienceYears = (c.experience || []).reduce((sum, e) => {
+        if (!e.from || !e.to) return sum;
+        const from = new Date(e.from);
+        const to = new Date(e.to);
+        return sum + (to.getTime() - from.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
+    }, 0);
+    
+    // Generate facts using the full Mongoose document
+    const facts = {
+      experienceYears,
+      qualifications: (c.education || []).map(e => e.degree).filter(Boolean),
+      expectedSalary: c.expectedSalary || 0,
+      preferredLocations: c.preferredLocations || [],
+    };
+
+    const { events } = await engine.run(facts);
+    if (events.length > 0) {
+      passingCandidates.push(c);
+    }
+  }
+
+  if (passingCandidates.length === 0) {
+    logger.info(`[matchingService] No candidates passed the rule-based filter for requirement: ${requirement._id}`);
+    return [];
+  }
+
+  const candidateIds = passingCandidates.map(c => String(c._id));
   let aiResults = [];
   try {
     const response = await axios.post(AI_SERVICE_URL, {
@@ -85,23 +80,22 @@ export async function matchCandidates(requirement, candidates, options = {}) {
     });
     aiResults = response.data;
   } catch (err) {
-    console.error("[matchingService] AI service call failed:", err.message);
-    // Fallback: just return rule-passing candidates
-    return passing;
+    logger.error("[matchingService] AI service call failed:", err.message);
+    return [];
   }
 
-  // 3. Merge AI and rule scores
   const aiWeight = options.aiWeight || DEFAULT_AI_WEIGHT;
   const ruleWeight = options.ruleWeight || DEFAULT_RULE_WEIGHT;
-  return aiResults.map(({ candidate_id, score }) => {
-    const c = passing.find(item => String(item._id) === candidate_id);
+
+  const finalResults = aiResults.map(({ candidate_id, score }) => {
+    const candidate = passingCandidates.find(item => String(item._id) === candidate_id);
     return {
-      candidate: c,
+      candidate: candidate.toObject(),
       ruleScore: 1,
       aiScore: score,
-      score: ruleWeight * 1 + aiWeight * score
+      score: (ruleWeight * 1) + (aiWeight * score)
     };
-  })
-    .sort((a, b) => b.score - a.score)
-    .slice(0, options.limit || 50);
+  });
+  
+  return finalResults.sort((a, b) => b.score - a.score).slice(0, options.limit || 50);
 }

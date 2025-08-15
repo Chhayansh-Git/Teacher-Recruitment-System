@@ -4,3 +4,5 @@ sentence-transformers
 faiss-cpu
 numpy
 websockets>=10.0,<13.0
+pymongo
+python-dotenv

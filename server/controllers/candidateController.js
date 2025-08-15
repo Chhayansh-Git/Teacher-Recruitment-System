@@ -3,7 +3,8 @@
 import createError from 'http-errors';
 import logger from '../utils/logger.js';
 import Candidate from '../models/candidate.js';
-import PushedCandidate from '../models/pushedCandidate.js';
+// This model is no longer needed directly in the controller for the dashboard
+// import PushedCandidate from '../models/pushedCandidate.js';
 import { upsertDraft, findDraftByUser } from '../models/draftModel.js';
 import formSchemas from '../config/formSchemas.js';
 import asyncHandler from '../middleware/asyncHandler.js';
@@ -38,33 +39,18 @@ export async function getCandidateProfile(req, res, next) {
   }
 }
 
+// --- THIS IS THE FIX ---
+// The controller function is now simplified to call the powerful service function.
 export async function getCandidateDashboard(req, res, next) {
   try {
-    const candidateId = req.user.id;
-    const pushes = await PushedCandidate.find({ 'candidates.candidate': candidateId })
-      .populate('requirement', 'title location')
-      .lean();
-
-    const dashboard = pushes.flatMap(push =>
-      push.candidates
-        .filter(c => c.candidate.toString() === candidateId)
-        .map(c => ({
-          requirementTitle: push.requirement.title,
-          requirementLocation: push.requirement.location,
-          status: c.status,
-          interviewDate: c.interviewDate,
-          interviewMode: c.interviewMode,
-          score: c.score ?? null,
-          pushedAt: push.pushedAt
-        }))
-    );
-
-    res.json({ success: true, data: dashboard });
+    const dashboardData = await candidateService.getCandidateDashboard(req.user.id);
+    res.json({ success: true, data: dashboardData });
   } catch (err) {
     logger.error('getCandidateDashboard error:', err);
     next(err);
   }
 }
+// --------------------
 
 export async function updateCandidateProfile(req, res, next) {
   try {

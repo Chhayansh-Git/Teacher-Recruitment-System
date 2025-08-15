@@ -12,7 +12,9 @@ import {
   changeRequirementStatus,
   getAllSchools,
   manuallyVerifySchool,
-  pushCandidatesToRequirement
+  pushCandidatesToRequirement,
+  getAllCandidates,
+  getRequirementByIdForAdmin // --- NEW IMPORT ---
 } from '../controllers/adminController.js';
 
 import { verifyToken } from '../middleware/authMiddleware.js';
@@ -58,6 +60,14 @@ router.get('/dashboard', getDashboard);
 
 router.get('/requirements', getAllRequirements);
 
+// --- NEW ROUTE TO GET A SINGLE REQUIREMENT ---
+router.get(
+  '/requirements/:id',
+  validate([param('id').isMongoId().withMessage('Valid requirement ID required')]),
+  getRequirementByIdForAdmin
+);
+// ---------------------------------------------
+
 router.put(
   '/requirements/:id/status',
   validate([
@@ -74,6 +84,8 @@ router.put(
 );
 
 router.get('/schools', getAllSchools);
+
+router.get('/candidates', getAllCandidates);
 
 router.post(
   '/requirements/:id/push-candidates',

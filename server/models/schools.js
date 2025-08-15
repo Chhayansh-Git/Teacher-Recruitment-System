@@ -23,7 +23,7 @@ const schoolSchema = new mongoose.Schema(
       required: true,
       lowercase: true,
       trim: true,
-      unique: true, // index handled by field, do NOT duplicate below!
+      unique: true,
       match: [/\S+@\S+\.\S+/, 'Invalid email']
     },
     whatsappNumber: { type: String, match: /^\+?[0-9]{7,15}$/, trim: true },
@@ -39,7 +39,7 @@ const schoolSchema = new mongoose.Schema(
     board: { type: String, enum: ['CBSE', 'ICSE', 'State', 'IB', 'IGCSE'], required: true },
 
     // Authentication & onboarding
-    password: { type: String, select: false }, // bcrypt hash
+    password: { type: String, select: false },
     firstLogin: { type: Boolean, default: true },
 
     // Verification
@@ -64,8 +64,7 @@ const schoolSchema = new mongoose.Schema(
       start: Date,
       end: Date
     },
-
-    // Metadata & T&C
+    
     metadata: { type: mongoose.Schema.Types.Mixed, default: {} }
   },
   { timestamps: true }

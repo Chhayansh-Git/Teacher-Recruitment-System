@@ -22,11 +22,11 @@ function validate(checks) {
   ];
 }
 
-// POST /api/v1/admin/push
+// POST /api/v1/push - This remains admin-only
 router.post(
   '/',
   verifyToken,
-  authorizeRoles('admin', 'super-admin'), // <-- Now allows both 'admin' and 'super-admin'
+  authorizeRoles('admin', 'super-admin'),
   validate([
     body('requirementId').isMongoId().withMessage('Valid requirementId required'),
     body('candidates').isArray({ min: 1 }).withMessage('Candidates array required'),
@@ -36,12 +36,14 @@ router.post(
   pushCandidates
 );
 
-// GET /api/v1/admin/push
+// --- THIS IS THE FIX ---
+// GET /api/v1/push - This route is now accessible by schools as well.
 router.get(
   '/',
   verifyToken,
-  authorizeRoles('admin', 'super-admin'), // <-- Now allows both
+  authorizeRoles('admin', 'super-admin', 'school'), // Added 'school' role
   getAllPushedCandidates
 );
+// --------------------
 
 export default router;

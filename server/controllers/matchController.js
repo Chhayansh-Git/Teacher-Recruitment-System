@@ -14,37 +14,20 @@ export const matchCandidatesToRequirement = async (req, res, next) => {
     const { requirementId } = req.params;
     const requirement = await Requirement.findById(requirementId)
       .populate('school', 'city state location');
-    if (!requirement) throw createError(404, 'Requirement not found');
+      
+    if (!requirement) {
+        throw createError(404, 'Requirement not found');
+    }
 
-    const candidates = await Candidate.find({ status: 'active' }).lean();
+    // --- FIX: Fetch full Mongoose documents without .lean() ---
+    // This ensures all sub-documents like 'education' and 'experience' are fully loaded.
+    const candidates = await Candidate.find({ status: 'active' });
+    
     const matched = await matchCandidates(requirement, candidates, { limit: 50 });
 
-    // Lightweight DTO for API
-    const result = matched.map(({ candidate, score, aiScore, ruleScore }) => ({
-      candidateId: candidate._id,
-      fullName: candidate.fullName,
-      email: candidate.email,
-      type: candidate.type,
-      position: candidate.position,
-      score,
-      aiScore,
-      ruleScore,
-      totalExperience: candidate.experience.reduce((sum, exp) => {
-        if (!exp.fromPeriod) return sum;
-        const from = new Date(exp.fromPeriod);
-        const to = exp.toPeriod ? new Date(exp.toPeriod) : new Date();
-        return sum + (to - from) / (1000 * 60 * 60 * 24 * 365.25);
-      }, 0),
-      qualificationLevel: Math.max(
-        ...(candidate.education || []).map(e =>
-          require('../config/qualificationTiers.js').getQualificationLevel(e.degree)
-        ),
-        0
-      ),
-      preferredLocations: candidate.preferredLocations
-    }));
-
-    res.json({ success: true, data: result });
+    // The service now returns the data in the perfect format for the frontend.
+    res.json({ success: true, data: matched });
+    
   } catch (err) {
     next(err);
   }

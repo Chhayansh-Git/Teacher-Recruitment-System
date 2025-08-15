@@ -9,8 +9,9 @@ import Candidate from '../models/candidate.js';
 import { sendEmail } from '../services/commService.js';
 import { auditLogger } from '../utils/auditLogger.js';
 
-/** POST /api/v1/admin/push - Push candidates to a requirement (admin only) */
+/** POST /api/v1/push - Push candidates to a requirement (admin only) */
 export const pushCandidates = async (req, res, next) => {
+  // ... (This function remains unchanged)
   try {
     const { requirementId, candidates } = req.body;
 
@@ -22,7 +23,6 @@ export const pushCandidates = async (req, res, next) => {
 
     const ids = candidates.map((c) => c.id);
 
-    // Double-push prevention: check if any already pushed
     const alreadyPushed = await PushedCandidate.findOne({
       requirement: requirementId,
       'candidates.candidate': { $in: ids }
@@ -67,13 +67,32 @@ export const pushCandidates = async (req, res, next) => {
   }
 };
 
-/** GET /api/v1/admin/push - List all pushes */
+/** GET /api/v1/push - List all pushes (for Admin) or filtered pushes (for School) */
 export const getAllPushedCandidates = async (req, res, next) => {
   try {
-    const data = await PushedCandidate.find()
-      .populate('requirement', 'title post')
+    const { role, id: userId } = req.user;
+    const { requirementId } = req.query;
+
+    // --- THIS LOGIC IS STILL REQUIRED ---
+    // Create a filter object. If the user is a school, it will be pre-filled
+    // with their ID to ensure they only see their own data.
+    const filter = {};
+    if (role === 'school') {
+        filter.school = userId;
+    }
+    
+    // If a specific requirementId is passed in the query, add it to the filter.
+    if (requirementId) {
+        if (!mongoose.isValidObjectId(requirementId)) throw createError(400, 'Invalid requirementId');
+        filter.requirement = requirementId;
+    }
+    // ----------------------------------
+
+    const data = await PushedCandidate.find(filter) // The filter is applied here
+      .populate('requirement', 'title')
       .populate('school', 'name')
-      .populate('candidates.candidate', 'fullName email');
+      .populate('candidates.candidate', 'fullName email contact position experience'); // Added more fields
+      
     res.json({ success: true, data });
   } catch (err) {
     logger.error('getAllPushedCandidates error:', err);

@@ -1,4 +1,4 @@
-# server/ai-matching-microservice/scripts/precompute_embeddings.py
+# server/ai-matching-microservice/precompute_embeddings.py
 
 import numpy as np
 import json

@@ -5,7 +5,6 @@ import formSchemas from '../config/formSchemas.js';
 
 const { Schema } = mongoose;
 
-// === ENUM ARRAYS
 const candidateTypes = ['teaching', 'nonTeaching'];
 const employmentTypes = ['Full‑Time', 'Part‑Time', 'Contract', 'Internship'];
 const educationLevels = ['High School', 'Diploma', 'Bachelors', 'Masters', 'Doctorate', 'Other'];
@@ -13,22 +12,16 @@ const genderOptions = ['Male', 'Female', 'Other'];
 const maritalStatuses = ['Single', 'Married', 'Other'];
 const candidateStatuses = ['active', 'inactive', 'suspended', 'hired', 'rejected', 'deleted'];
 
-// === Education Schema
 const educationSchema = new Schema({
   level: { type: String, required: true, trim: true, enum: educationLevels },
   degree: { type: String, required: true, trim: true },
   specialization: { type: String, trim: true },
   university: { type: String, trim: true },
-  passingYear: {
-    type: Number,
-    min: [1900, "Year too early"],
-    max: [new Date().getFullYear(), "Year cannot be in future"]
-  },
+  passingYear: { type: Number, min: [1900, "Year too early"], max: [new Date().getFullYear(), "Year cannot be in future"] },
   grade: { type: String, trim: true },
   document: { type: String, trim: true }
 }, { _id: false });
 
-// === Experience Schema
 const experienceSchema = new Schema({
   role: { type: String, required: true, trim: true },
   subject: { type: String, trim: true },
@@ -38,17 +31,10 @@ const experienceSchema = new Schema({
   to: { type: Date },
   salary: { type: Number, min: [0, "Salary must be ≥ 0"] },
   reasonForLeaving:{ type: String, trim: true },
-  employmentType: {
-    type: String,
-    enum: {
-      values: employmentTypes,
-      message: "Invalid employment type"
-    }
-  },
+  employmentType: { type: String, enum: { values: employmentTypes, message: "Invalid employment type" } },
   document: { type: String, trim: true }
 }, { _id: false });
 
-// === Main Candidate Schema
 const candidateSchema = new Schema({
   fullName: { type: String, required: true, trim: true },
   gender: { type: String, enum: genderOptions, trim: true },
@@ -73,11 +59,7 @@ const candidateSchema = new Schema({
   communicationSkills: { type:String, trim:true },
   achievements: { type:String, trim:true },
   extraResponsibilities:{ type:[String], default: [] },
-  status: {
-    type: String,
-    enum: candidateStatuses,
-    default:'active'
-  },
+  status: { type: String, enum: candidateStatuses, default:'active' },
   verified: { type: Boolean, default: false },
   verifiedAt: { type: Date },
   deactivatedUntil: { type: Date },
@@ -95,12 +77,4 @@ candidateSchema.pre('validate', function(next) {
 const Candidate = mongoose.models.Candidate || mongoose.model('Candidate', candidateSchema);
 
 export default Candidate;
-// Export enums for validators/routes/frontend
-export {
-  educationLevels,
-  candidateTypes,
-  employmentTypes,
-  genderOptions,
-  maritalStatuses,
-  candidateStatuses
-};
+export { educationLevels, candidateTypes, employmentTypes, genderOptions, maritalStatuses, candidateStatuses };

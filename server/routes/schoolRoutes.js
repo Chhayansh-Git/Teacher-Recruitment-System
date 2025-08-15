@@ -84,7 +84,25 @@ router.post(
   loginSchool
 );
 
+
+/* ------------------- FIX: Shared Routes (School & Admin) ------------------- */
+
+// This specific route is now accessible by schools and admins.
+router.get(
+  '/requirements/:id',
+  verifyToken,
+  authorizeRoles('school', 'admin', 'super-admin'), // <-- Allows admin access
+  param('id').isMongoId().withMessage('Invalid requirement ID'),
+  validate,
+  getRequirementById
+);
+
+/* ------------------------------------------------------------------------- */
+
+
 /* ------------------- Protected Routes (School only) ------------------- */
+
+// This middleware now applies only to the routes defined below it.
 router.use(verifyToken, authorizeRoles('school'));
 
 // SCHOOL PROFILE
@@ -127,17 +145,9 @@ router.get(
   getSchoolRequirements
 );
 
-router.get(
-  '/requirements/:id',
-  param('id').isMongoId().withMessage('Invalid requirement ID'),
-  validate,
-  getRequirementById
-);
-
 router.put(
   '/requirements/:id',
   param('id').isMongoId().withMessage('Invalid requirement ID'),
-  // add further per-field validators as above if you support partial update
   validate,
   updateRequirement
 );

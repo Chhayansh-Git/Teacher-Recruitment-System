@@ -4,8 +4,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start:node": "node index.js",
+    "start:ai": "python ai-matching-microservice/app.py",
+    "start": "concurrently \"npm run start:node\" \"npm run start:ai\"",
+    "dev": "concurrently \"nodemon index.js\" \"npm run start:ai\"",
+    "ai:export": "python ai-matching-microservice/export_candidates.py",
+    "ai:build": "python ai-matching-microservice/precompute_embeddings.py data/candidates.json data/candidate_embeddings.npy data/faiss.index",
+    "ai:setup": "npm run ai:export && npm run ai:build",
     "test": "vitest run",
     "test:ui": "vitest --ui"
   },
@@ -42,6 +47,7 @@
   "devDependencies": {
     "@vitest/ui": "^3.2.4",
     "chai": "^5.2.1",
+    "concurrently": "^9.2.0",
     "cross-env": "^7.0.3",
     "mocha": "^11.7.1",
     "morgan": "^1.10.1",

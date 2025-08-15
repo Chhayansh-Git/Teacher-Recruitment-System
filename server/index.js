@@ -72,7 +72,7 @@ app.use(`${api}/reports`, reportRoutes);
 app.use(`${api}/email-templates`, emailTemplateRoutes);
 app.use(`${api}/admin`, adminRoutes);
 app.use(`${api}/admin/match`, matchRoutes);
-app.use(`${api}/admin/push`, pushRoutes);
+app.use(`${api}/push`, pushRoutes);
 app.use(`${api}/admin/ai`, aiRoutes);
 app.use(`${api}/admin/report-templates`, reportTemplateRoutes);
 app.use('/api/v1/interviews', interviewRoutes);
