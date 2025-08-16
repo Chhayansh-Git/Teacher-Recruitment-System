@@ -55,7 +55,9 @@ export const loginSchema = Joi.object({
 // 3. Verify OTP
 export const verifyOtpSchema = Joi.object({
   email: Joi.string().email().required(),
-  otp: Joi.string().length(6).pattern(/^\d+$/).required()
+  otp: Joi.string().length(6).pattern(/^\d+$/).required(),
+  // --- FIX: Added 'role' to the schema to allow it in the request body ---
+  role: Joi.string().valid('candidate', 'admin', 'super-admin').required()
 });
 
 // 4. Forgot Password

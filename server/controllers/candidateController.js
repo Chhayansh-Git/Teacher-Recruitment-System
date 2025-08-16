@@ -3,8 +3,6 @@
 import createError from 'http-errors';
 import logger from '../utils/logger.js';
 import Candidate from '../models/candidate.js';
-// This model is no longer needed directly in the controller for the dashboard
-// import PushedCandidate from '../models/pushedCandidate.js';
 import { upsertDraft, findDraftByUser } from '../models/draftModel.js';
 import formSchemas from '../config/formSchemas.js';
 import asyncHandler from '../middleware/asyncHandler.js';
@@ -27,7 +25,6 @@ export async function getAllCandidates(req, res, next) {
   }
 }
 
-// 🚩 NEW: Candidate profile fetch for 'my profile' route
 export async function getCandidateProfile(req, res, next) {
   try {
     const candidate = await Candidate.findById(req.user.id).select('-password');
@@ -39,8 +36,6 @@ export async function getCandidateProfile(req, res, next) {
   }
 }
 
-// --- THIS IS THE FIX ---
-// The controller function is now simplified to call the powerful service function.
 export async function getCandidateDashboard(req, res, next) {
   try {
     const dashboardData = await candidateService.getCandidateDashboard(req.user.id);
@@ -50,19 +45,35 @@ export async function getCandidateDashboard(req, res, next) {
     next(err);
   }
 }
-// --------------------
 
 export async function updateCandidateProfile(req, res, next) {
   try {
     const id = req.user.id;
     const body = req.body || {};
 
+    if (body.education && typeof body.education === 'string') {
+      try {
+        body.education = JSON.parse(body.education);
+      } catch (e) {
+        throw createError(400, 'Invalid JSON format for education field.');
+      }
+    }
+    if (body.experience && typeof body.experience === 'string') {
+      try {
+        body.experience = JSON.parse(body.experience);
+      } catch (e) {
+        throw createError(400, 'Invalid JSON format for experience field.');
+      }
+    }
+
+    // FIX: Expanded the list to include all fields from the updated profile form.
     const updatableFields = [
-      'type', 'position', 'languages', 'skills', 'preferredLocations',
-      'extraResponsibilities', 'address', 'experience', 'education'
+      'fullName', 'gender', 'dob', 'maritalStatus', 'contact', 'address', 'city',
+      'state', 'pinCode', 'type', 'position', 'preferredLocations', 'education',
+      'experience', 'previousSalary', 'expectedSalary', 'languages',
+      'communicationSkills', 'achievements', 'extraResponsibilities'
     ];
 
-    // Validate type/position if present
     const type = body.type;
     const position = body.position;
     if (type || position) {

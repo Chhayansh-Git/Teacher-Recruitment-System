@@ -48,6 +48,14 @@ app.use(cors({ origin: process.env.CLIENT_URL || '*', optionsSuccessStatus: 200 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(apiLimiter);
+
+// --- NEW MIDDLEWARE TO PREVENT CACHING ---
+app.use((req, res, next) => {
+  res.set('Cache-Control', 'no-store');
+  next();
+});
+// -----------------------------------------
+
 app.use('/api/v1/auth/verify-otp', otpLimiter);
 
 // Static uploads path (robust for Node/ESM)

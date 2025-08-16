@@ -8,7 +8,10 @@ import School from '../models/schools.js';
 import Requirement from '../models/requirements.js';
 import PushedCandidate from '../models/pushedCandidate.js';
 import Candidate from '../models/candidate.js';
+import Interview from '../models/interview.js';
 import {auditLogger} from '../utils/auditLogger.js';
+import mongoose from 'mongoose';
+
 
 const JWT_SECRET = process.env.JWT_SECRET;
 const JWT_EXPIRES = process.env.JWT_EXPIRES_IN || '7d';
@@ -80,8 +83,6 @@ export async function getAllRequirements(req, res, next) {
   }
 }
 
-// --- NEW FUNCTION ADDED ---
-// This function handles fetching a single requirement by its ID for an admin.
 export async function getRequirementByIdForAdmin(req, res, next) {
   try {
     const { id } = req.params;
@@ -94,7 +95,6 @@ export async function getRequirementByIdForAdmin(req, res, next) {
     next(err);
   }
 }
-// -------------------------
 
 export async function changeRequirementStatus(req, res, next) {
   try {
@@ -135,6 +135,102 @@ export async function getAllCandidates(req, res, next) {
   } catch (err) {
     next(err);
   }
+}
+
+export async function getCandidateDetails(req, res, next) {
+  try {
+    const { id } = req.params;
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+        throw createError(400, 'Invalid candidate ID');
+    }
+
+    const candidate = await Candidate.findById(id)
+      .select('fullName email contact city state position type education experience verified isSuspended status adminNotes');
+    
+    // --- THIS IS THE DEBUGGING LINE ---
+    console.log('--- RAW CANDIDATE FROM DB FOR DEBUGGING ---', JSON.stringify(candidate, null, 2));
+    
+    if (!candidate) {
+      throw createError(404, 'Candidate not found');
+    }
+    
+    const interviewHistory = await Interview.find({ candidate: id })
+      .populate({
+        path: 'requirement',
+        select: 'title post',
+        populate: {
+            path: 'school',
+            select: 'name'
+        }
+      })
+      .sort({ createdAt: -1 });
+
+    const applicationHistory = interviewHistory.map(interview => ({
+      ...interview.toObject(),
+    }));
+
+    res.json({ 
+        success: true, 
+        data: {
+            ...candidate.toObject(),
+            applicationHistory
+        }
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function updateCandidateDetails(req, res, next) {
+    try {
+        const { id } = req.params;
+        const { isVerified, isSuspended, status, adminNotes } = req.body;
+
+        const candidate = await Candidate.findById(id);
+        if (!candidate) {
+            throw createError(404, 'Candidate not found');
+        }
+
+        const before = {
+            verified: candidate.verified,
+            isSuspended: candidate.isSuspended,
+            status: candidate.status,
+            adminNotes: candidate.adminNotes,
+        };
+
+        if (typeof isVerified === 'boolean') {
+            candidate.verified = isVerified;
+            if (isVerified) candidate.verifiedAt = new Date();
+        }
+        if (typeof isSuspended === 'boolean') {
+            candidate.isSuspended = isSuspended;
+        }
+        if (status) {
+            candidate.status = status;
+        }
+        if (adminNotes !== undefined) {
+            candidate.adminNotes = adminNotes;
+        }
+
+        const updatedCandidate = await candidate.save();
+
+        auditLogger({
+            userId: req.user.id,
+            action: 'update_candidate_details',
+            before,
+            after: {
+                verified: updatedCandidate.verified,
+                isSuspended: updatedCandidate.isSuspended,
+                status: updatedCandidate.status,
+                adminNotes: updatedCandidate.adminNotes
+            },
+            description: `Admin updated details for candidate ${id}`
+        });
+
+        res.json({ success: true, data: updatedCandidate });
+    } catch (err) {
+        next(err);
+    }
 }
 
 export async function manuallyVerifySchool(req, res, next) {

@@ -66,7 +66,6 @@ export const register = asyncHandler(async (req, res) => {
 
   const otp = await generateOtpToken(user._id);
   if (!IS_TEST) {
-    // This correctly uses the sendOTP helper to send a single email.
     await sendOTP(email, otp, details.fullName || details.name || '');
   }
 
@@ -74,19 +73,17 @@ export const register = asyncHandler(async (req, res) => {
 });
 
 export const verifyOtp = asyncHandler(async (req, res) => {
-  const { email, otp } = await verifyOtpSchema.validateAsync(req.body);
-
-  const user =
-    (await School.findOne({ email })) ||
-    (await Admin.findOne({ email }))   ||
-    (await Candidate.findOne({ email }));
+  const { email, otp, role } = await verifyOtpSchema.validateAsync(req.body);
+  const Model = getModelByRole(role);
+  const user = await Model.findOne({ email });
+  
   if (!user) throw createError(404, 'User not found');
+  if (user.verified) throw createError(400, 'Account already verified');
 
   await verifyOtpToken(user._id, otp);
   user.verified = true;
   await user.save();
 
-  const role  = user.constructor.modelName.toLowerCase();
   const token = signToken({ id: user._id, role });
   
   const userObject = user.toObject();
@@ -94,6 +91,25 @@ export const verifyOtp = asyncHandler(async (req, res) => {
 
   res.json({ success: true, token, user: userObject });
 });
+
+// --- NEW FUNCTION to handle resending OTP for candidates/admins ---
+export const resendOtp = asyncHandler(async (req, res) => {
+    const { email } = req.body; // Assuming role might not be needed if email is unique
+    
+    // Find the user across relevant collections
+    const user = (await Candidate.findOne({ email })) || (await Admin.findOne({ email }));
+    
+    if (!user) throw createError(404, 'User not found');
+    if (user.verified) throw createError(400, 'Account is already verified.');
+
+    const otp = await generateOtpToken(user._id);
+    if (!IS_TEST) {
+        await sendOTP(email, otp, user.fullName || '');
+    }
+
+    res.json({ success: true, message: "A new OTP has been sent to your email." });
+});
+// --------------------------------------------------------------------
 
 export const login = asyncHandler(async (req, res) => {
   const { role, email, password } = await loginSchema.validateAsync(req.body);
@@ -132,8 +148,6 @@ export const forgotPassword = asyncHandler(async (req, res) => {
 
   const resetToken = await generateResetToken(user._id);
   if (!IS_TEST) {
-    // THE FIX: The redundant sendEmail call has been removed.
-    // We now only call sendOTP for password resets as well.
     await sendOTP(email, resetToken);
   }
 

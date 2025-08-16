@@ -14,7 +14,9 @@ import {
   manuallyVerifySchool,
   pushCandidatesToRequirement,
   getAllCandidates,
-  getRequirementByIdForAdmin // --- NEW IMPORT ---
+  getRequirementByIdForAdmin,
+  getCandidateDetails,      // --- NEW IMPORT ---
+  updateCandidateDetails    // --- NEW IMPORT ---
 } from '../controllers/adminController.js';
 
 import { verifyToken } from '../middleware/authMiddleware.js';
@@ -60,13 +62,11 @@ router.get('/dashboard', getDashboard);
 
 router.get('/requirements', getAllRequirements);
 
-// --- NEW ROUTE TO GET A SINGLE REQUIREMENT ---
 router.get(
   '/requirements/:id',
   validate([param('id').isMongoId().withMessage('Valid requirement ID required')]),
   getRequirementByIdForAdmin
 );
-// ---------------------------------------------
 
 router.put(
   '/requirements/:id/status',
@@ -86,6 +86,26 @@ router.put(
 router.get('/schools', getAllSchools);
 
 router.get('/candidates', getAllCandidates);
+
+// --- NEW ROUTES FOR CANDIDATE MANAGEMENT ---
+router.get(
+    '/candidates/:id',
+    validate([param('id').isMongoId().withMessage('Valid candidate ID is required')]),
+    getCandidateDetails
+);
+
+router.put(
+    '/candidates/:id',
+    validate([
+        param('id').isMongoId().withMessage('Valid candidate ID is required'),
+        body('isVerified').optional().isBoolean().withMessage('isVerified must be a boolean'),
+        body('isSuspended').optional().isBoolean().withMessage('isSuspended must be a boolean'),
+        body('status').optional().isString().withMessage('Status must be a string'),
+        body('adminNotes').optional().isString().withMessage('Admin notes must be a string')
+    ]),
+    updateCandidateDetails
+);
+// --------------------------------------------
 
 router.post(
   '/requirements/:id/push-candidates',

@@ -6,7 +6,8 @@ import formSchemas from '../config/formSchemas.js';
 const { Schema } = mongoose;
 
 const candidateTypes = ['teaching', 'nonTeaching'];
-const employmentTypes = ['Full‑Time', 'Part‑Time', 'Contract', 'Internship'];
+// FIX: Using standard hyphens to prevent validation errors from the frontend.
+const employmentTypes = ['Full-Time', 'Part-Time', 'Contract', 'Internship'];
 const educationLevels = ['High School', 'Diploma', 'Bachelors', 'Masters', 'Doctorate', 'Other'];
 const genderOptions = ['Male', 'Female', 'Other'];
 const maritalStatuses = ['Single', 'Married', 'Other'];
@@ -63,7 +64,9 @@ const candidateSchema = new Schema({
   verified: { type: Boolean, default: false },
   verifiedAt: { type: Date },
   deactivatedUntil: { type: Date },
-  deletedAt: { type: Date }
+  deletedAt: { type: Date },
+  isSuspended: { type: Boolean, default: false },
+  adminNotes: { type: String, trim: true, default: '' },
 }, { timestamps: true });
 
 candidateSchema.pre('validate', function(next) {

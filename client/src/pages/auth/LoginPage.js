@@ -20,23 +20,16 @@ export const LoginPage = () => {
         setError('');
 
         try {
-            await login(role, email, password);
-
-            // --- THIS IS THE FIX ---
-            // We already know the role, so we can use it directly for the redirect.
-            const redirectRole = role === 'super-admin' ? 'admin' : role;
+            const loggedInUser = await login(role, email, password);
+            const redirectRole = loggedInUser.role === 'super-admin' ? 'admin' : loggedInUser.role;
             navigate(`/${redirectRole}/dashboard`);
-            // ----------------------
-
         } catch (err) {
             setError(err.response?.data?.error || 'Login failed. Please check your credentials.');
-            console.error(err);
         } finally {
             setLoading(false);
         }
     };
     
-    // ... (the rest of the component remains the same) ...
     const getRoleConfig = () => {
         switch (role) {
             case 'school': return { icon: <Building className="w-16 h-16 text-blue-500" />, title: 'School Login', placeholder: 'Enter School Email or Username', gradient: 'from-blue-500 to-indigo-500' };
@@ -64,20 +57,20 @@ export const LoginPage = () => {
                             <Mail className="absolute top-1/2 left-4 -translate-y-1/2 text-gray-400" size={20} />
                             <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder={placeholder} className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition" required />
                         </div>
-                        <div className="relative mb-4">
+                        <div className="relative">
                             <Lock className="absolute top-1/2 left-4 -translate-y-1/2 text-gray-400" size={20} />
                             <input type={showPassword ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" className="w-full pl-12 pr-12 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition" required />
                             <button type="button" onClick={() => setShowPassword(!showPassword)} className="absolute top-1/2 right-4 -translate-y-1/2 text-gray-500 hover:text-gray-700">{showPassword ? <EyeOff size={20} /> : <Eye size={20} />}</button>
                         </div>
-                         <div className="text-center mt-6">
-                            <p className="text-sm text-gray-600">
-                                Don't have an account?{' '}
-                                <Link to="/register" className="font-medium text-blue-600 hover:underline">
-                                    Register Here
-                                </Link>
-                            </p>
+                        <div className="text-right mt-2">
+                            <Link to="/forgot-password" className="text-xs font-medium text-blue-600 hover:underline">
+                                Forgot Password?
+                            </Link>
                         </div>
                         <button type="submit" disabled={loading} className={`w-full mt-4 text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50 bg-gradient-to-r ${gradient} ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}>{loading ? 'Signing In...' : 'Sign In'}</button>
+                        <div className="text-center mt-6">
+                            <p className="text-sm text-gray-600">Don't have an account?{' '}<Link to="/register" className="font-medium text-blue-600 hover:underline">Register Here</Link></p>
+                        </div>
                     </form>
                 </div>
             </div>
