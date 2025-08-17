@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../api';
-import { User, Mail, Phone, MapPin, Briefcase, GraduationCap, Calendar, Building, DollarSign, Edit, Save, X, Plus, Trash2, Languages, Award, ShieldCheck, HelpCircle } from 'lucide-react';
+import { User, Mail, Phone, MapPin, Briefcase, GraduationCap, Calendar, Building, DollarSign, Edit, Save, Plus, Trash2, Languages, Award, ShieldCheck} from 'lucide-react';
 
 const CandidateProfilePage = () => {
     const [profileData, setProfileData] = useState(null);

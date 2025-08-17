@@ -1,3 +1,5 @@
+// src/App.js
+
 import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
@@ -13,7 +15,7 @@ import DashboardLayout from './components/layout/DashboardLayout';
 import CandidateDashboard from './pages/candidate/CandidateDashboard';
 import CandidateProfilePage from './pages/candidate/CandidateProfilePage';
 import MyApplicationsPage from './pages/candidate/MyApplicationsPage';
-import CompleteProfilePage from './pages/candidate/CompleteProfilePage'; // <-- IMPORT NEW PAGE
+import CompleteProfilePage from './pages/candidate/CompleteProfilePage';
 // School Imports
 import SchoolDashboard from './pages/school/SchoolDashboard';
 import SchoolProfilePage from './pages/school/SchoolProfilePage';
@@ -21,6 +23,7 @@ import PostRequirementPage from './pages/school/PostRequirementPage';
 import ViewRequirementsPage from './pages/school/ViewRequirementsPage';
 import RequirementDetailsPage from './pages/school/RequirementDetailsPage';
 import EditRequirementPage from './pages/school/EditRequirementPage';
+import SchoolCandidatesPage from './pages/school/SchoolCandidatesPage'; // <-- IMPORT NEW PAGE
 // Admin Imports
 import AdminDashboard from './pages/admin/AdminDashboard';
 import ManageSchoolsPage from './pages/admin/ManageSchoolsPage';
@@ -60,7 +63,6 @@ function App() {
             <Route path="/candidate/dashboard" element={<ProtectedRoute allowedRoles={['candidate']}><DashboardLayout><CandidateDashboard /></DashboardLayout></ProtectedRoute>} />
             <Route path="/candidate/profile" element={<ProtectedRoute allowedRoles={['candidate']}><DashboardLayout><CandidateProfilePage /></DashboardLayout></ProtectedRoute>} />
             <Route path="/candidate/applications" element={<ProtectedRoute allowedRoles={['candidate']}><DashboardLayout><MyApplicationsPage /></DashboardLayout></ProtectedRoute>} />
-            {/* --- NEW ROUTE ADDED --- */}
             <Route path="/complete-profile" element={<ProtectedRoute allowedRoles={['candidate']}><DashboardLayout><CompleteProfilePage /></DashboardLayout></ProtectedRoute>} />
             
             {/* School Routes */}
@@ -70,7 +72,8 @@ function App() {
             <Route path="/school/requirements" element={<ProtectedRoute allowedRoles={['school']}><DashboardLayout><ViewRequirementsPage /></DashboardLayout></ProtectedRoute>} />
             <Route path="/school/requirements/:id" element={<ProtectedRoute allowedRoles={['school']}><DashboardLayout><RequirementDetailsPage /></DashboardLayout></ProtectedRoute>} />
             <Route path="/school/requirements/edit/:id" element={<ProtectedRoute allowedRoles={['school']}><DashboardLayout><EditRequirementPage /></DashboardLayout></ProtectedRoute>} />
-
+            <Route path="/school/candidates" element={<ProtectedRoute allowedRoles={['school']}><DashboardLayout><SchoolCandidatesPage /></DashboardLayout></ProtectedRoute>} />
+            
             {/* Admin Routes */}
             <Route path="/admin/dashboard" element={<ProtectedRoute allowedRoles={['admin']}><DashboardLayout><AdminDashboard /></DashboardLayout></ProtectedRoute>} />
             <Route path="/admin/schools" element={<ProtectedRoute allowedRoles={['admin']}><DashboardLayout><ManageSchoolsPage /></DashboardLayout></ProtectedRoute>} />

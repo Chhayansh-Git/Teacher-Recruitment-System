@@ -1223,3 +1223,1383 @@
     at router (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:60:12)
     at Layer.handleRequest (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/lib/layer.js:152:17)
     at trimPrefix (/Users/chhayanshporwal/projects/teacher-recruitment-system-2/server/node_modules/router/index.js:342:13)
+2025-08-11 18:19:21 [ERROR]: POST /api/v1/auth/login → 500: "login" is not allowed
+2025-08-11 18:19:21 [ERROR]: ValidationError: "login" is not allowed
+2025-08-11 18:19:35 [ERROR]: POST /api/v1/auth/login → 500: "login" is not allowed
+2025-08-11 18:19:35 [ERROR]: ValidationError: "login" is not allowed
+2025-08-11 18:20:59 [ERROR]: POST /api/v1/auth/login → 500: "login" is not allowed
+2025-08-11 18:20:59 [ERROR]: ValidationError: "login" is not allowed
+2025-08-11 18:23:23 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:23:23 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:25:24 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:25:24 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:32:47 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:32:47 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:36:47 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:36:47 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:38:42 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:38:42 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:39:07 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:39:07 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:41:18 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:41:18 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:42:46 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:42:46 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:42:58 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:42:58 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:49:43 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:49:43 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:54:18 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:54:18 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:54:48 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:54:48 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 18:57:50 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 18:57:50 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:01:14 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:01:14 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:03:09 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:03:09 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:03:10 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:03:10 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:03:10 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:03:10 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:03:10 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:03:10 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:03:27 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:03:27 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:04:50 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:04:50 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:04:51 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:04:51 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:04:51 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:04:51 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:05:58 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:05:58 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:05:59 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:05:59 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:05:59 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:05:59 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:05:59 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:05:59 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:05:59 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:05:59 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:06:26 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-11 19:06:26 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:104:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-11 19:11:28 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-11 19:11:28 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:88:3
+2025-08-11 19:15:02 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-11 19:15:02 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:88:3
+2025-08-12 09:28:24 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:28:24 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:28:29 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:28:29 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:28:30 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:28:30 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:28:54 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:28:54 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:30:05 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:30:05 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:31:55 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:31:55 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:34:04 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:34:04 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 09:37:00 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-12 09:37:00 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 16:38:25 [ERROR]: POST /api/v1/auth/register → 409: Email already registered
+2025-08-12 16:38:25 [ERROR]: ConflictError: Email already registered
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:55:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-12 16:41:48 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-12 16:41:48 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:87:3
+2025-08-12 16:49:53 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-12 16:49:53 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-12 16:49:57 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-12 16:49:57 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-12 16:50:28 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-12 16:50:28 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:87:3
+2025-08-12 16:54:03 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-12 16:54:03 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:87:3
+2025-08-12 22:13:41 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-12 22:13:41 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:85:3
+2025-08-12 22:16:16 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-12 22:16:16 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:85:3
+2025-08-12 22:21:27 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-12 22:21:27 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:38:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:85:3
+2025-08-13 14:22:12 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-13 14:22:12 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:106:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-13 15:10:59 [ERROR]: POST /api/v1/auth/register → 409: Email already registered
+2025-08-13 15:10:59 [ERROR]: ConflictError: Email already registered
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:55:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-13 15:12:53 [ERROR]: POST /api/v1/auth/login → 403: Please verify your email before logging in
+2025-08-13 15:12:53 [ERROR]: ForbiddenError: Please verify your email before logging in
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:106:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-13 16:01:50 [ERROR]: POST /api/v1/auth/login → 500: "email" is required
+2025-08-13 16:01:50 [ERROR]: ValidationError: "email" is required
+2025-08-13 16:05:53 [ERROR]: POST /api/v1/auth/login → 500: "login" is not allowed
+2025-08-13 16:05:53 [ERROR]: ValidationError: "login" is not allowed
+2025-08-13 16:06:33 [ERROR]: POST /api/v1/auth/login → 500: "login" is not allowed
+2025-08-13 16:06:33 [ERROR]: ValidationError: "login" is not allowed
+2025-08-13 16:07:14 [ERROR]: POST /api/v1/auth/login → 500: "login" is not allowed
+2025-08-13 16:07:14 [ERROR]: ValidationError: "login" is not allowed
+2025-08-13 16:12:05 [ERROR]: POST /api/v1/auth/login → 500: "email" is required
+2025-08-13 16:12:05 [ERROR]: ValidationError: "email" is required
+2025-08-14 14:56:15 [ERROR]: POST /api/v1/shortlists → 400: Cannot hire candidate without completed interview
+2025-08-14 14:56:15 [ERROR]: BadRequestError: Cannot hire candidate without completed interview
+    at upsertShortlist (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/shortlistController.js:24:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-14 15:03:37 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:37 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:40 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:40 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:40 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:40 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:41 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:41 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:41 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:41 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:41 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:41 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:41 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:41 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:42 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:42 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:42 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:42 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:42 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:42 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:42 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:42 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:43 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:43 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:43 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:43 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:43 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:43 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:03:43 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:03:43 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:12:29 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:12:29 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:12:29 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:12:29 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:13:38 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:13:38 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:13:38 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:13:38 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:13:49 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:13:49 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:13:49 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:13:49 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:14:21 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:14:21 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 15:14:21 [ERROR]: GET /api/v1/shortlists?candidate-ID=689659b54d803a6cb815ebba → 403: Forbidden
+2025-08-14 15:14:21 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:295:15
+2025-08-14 17:21:01 [ERROR]: GET /api/v1/admin/push?requirementId=689659b54d803a6cb815ebc0 → 403: Forbidden
+2025-08-14 17:21:01 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-14 17:21:01 [ERROR]: GET /api/v1/admin/push?requirementId=689659b54d803a6cb815ebc0 → 403: Forbidden
+2025-08-14 17:21:01 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-14 17:21:51 [ERROR]: GET /api/v1/admin/push?requirementId=689659b54d803a6cb815ebc0 → 403: Forbidden
+2025-08-14 17:21:51 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-14 17:41:47 [ERROR]: POST /api/v1/interviews → 500: connection <monitor> to 159.41.178.137:27017 timed out
+2025-08-14 17:41:47 [ERROR]: MongoServerSelectionError: connection <monitor> to 159.41.178.137:27017 timed out
+    at Topology.selectServer (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/topology.js:326:38)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:192:22)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+    at async FindCursor.next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+    at async Collection.findOne (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/collection.js:277:21)
+    at async model.Query._findOne (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2687:15)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+2025-08-15 02:15:05 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:15:05 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:15:06 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:15:06 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:15:08 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:15:08 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:15:12 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:15:12 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:15:21 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:15:21 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:16:21 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:16:21 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:16:23 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:16:23 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:16:27 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:16:27 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:17:28 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:17:28 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:17:39 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:17:39 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:17:41 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:17:41 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:17:45 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:17:45 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:21:16 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:21:16 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:21:17 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:21:17 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 02:21:19 [ERROR]: GET /api/v1/schools/requirements/689659b64d803a6cb815ebc3 → 403: Forbidden
+2025-08-15 02:21:19 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-15 03:43:23 [ERROR]: GET /api/v1/admin/match/689659b64d803a6cb815ebc0 → 404: Requirement not found
+2025-08-15 03:43:23 [ERROR]: NotFoundError: Requirement not found
+    at matchCandidatesToRequirement (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/matchController.js:17:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 03:43:31 [ERROR]: GET /api/v1/admin/match/689659b64d803a6cb815ebc0 → 404: Requirement not found
+2025-08-15 03:43:31 [ERROR]: NotFoundError: Requirement not found
+    at matchCandidatesToRequirement (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/matchController.js:17:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 03:53:25 [ERROR]: POST /api/v1/auth/login → 401: Invalid credentials
+2025-08-15 03:53:25 [ERROR]: UnauthorizedError: Invalid credentials
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:103:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 04:46:08 [ERROR]: POST /api/v1/auth/login → 500: "email" must be a valid email
+2025-08-15 04:46:08 [ERROR]: ValidationError: "email" must be a valid email
+2025-08-15 09:34:33 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:34:33 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:34:34 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:34:34 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:34:36 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:34:36 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:34:48 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:34:48 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:35:41 [ERROR]: GET /api/v1/email-templates/SMS_OTP → 400: Key must be alphanumeric
+2025-08-15 09:35:41 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:35:42 [ERROR]: GET /api/v1/email-templates/SMS_OTP → 400: Key must be alphanumeric
+2025-08-15 09:35:42 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:35:44 [ERROR]: GET /api/v1/email-templates/SMS_OTP → 400: Key must be alphanumeric
+2025-08-15 09:35:44 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:35:48 [ERROR]: GET /api/v1/email-templates/SMS_OTP → 400: Key must be alphanumeric
+2025-08-15 09:35:48 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:32 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:32 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:33 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:33 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:35 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:35 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:42 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:42 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:43 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:43 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:45 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:45 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:36:49 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:36:49 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:37:07 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:37:07 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:37:08 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:37:08 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:37:10 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:37:10 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:37:15 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:37:15 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:37:47 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:37:47 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:37:48 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:37:48 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:38:23 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:38:23 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:38:27 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:38:27 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:38:29 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:38:29 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:38:30 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:38:30 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:40:33 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:40:33 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:42:02 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:42:02 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:42:19 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:42:19 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:42:20 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:42:20 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:42:22 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:42:22 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 09:42:26 [ERROR]: GET /api/v1/email-templates/CANDIDATES_PUSHED → 400: Key must be alphanumeric
+2025-08-15 09:42:26 [ERROR]: BadRequestError: Key must be alphanumeric
+    at handleValidation (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/emailTemplateRoutes.js:26:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-15 20:30:43 [ERROR]: POST /api/v1/auth/register → 500: "position" contains an invalid value
+2025-08-15 20:30:43 [ERROR]: ValidationError: "position" contains an invalid value
+2025-08-15 20:36:16 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted, Valid website URL is required, Invalid value, Invalid value
+2025-08-15 20:36:16 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted, Valid website URL is required, Invalid value, Invalid value
+    at validate (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/schoolRoutes.js:28:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 07:01:06 [ERROR]: POST /api/v1/auth/register → 409: Email already registered
+2025-08-16 07:01:06 [ERROR]: ConflictError: Email already registered
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:55:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 07:02:09 [ERROR]: POST /api/v1/auth/login → 500: "password" must be a string
+2025-08-16 07:02:09 [ERROR]: ValidationError: "password" must be a string
+2025-08-16 07:07:57 [ERROR]: POST /api/v1/auth/verify-otp → 400: Invalid or expired OTP
+2025-08-16 07:07:57 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifyOtpToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/services/tokenService.js:32:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:85:3
+2025-08-16 07:29:09 [ERROR]: POST /api/v1/auth/verify-otp → 500: "role" is not allowed
+2025-08-16 07:29:09 [ERROR]: ValidationError: "role" is not allowed
+2025-08-16 08:27:34 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted, Valid website URL is required, Invalid value, Invalid value, Invalid value
+2025-08-16 08:27:34 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted, Valid website URL is required, Invalid value, Invalid value, Invalid value
+    at validate (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/schoolRoutes.js:28:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 08:27:47 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted, Valid website URL is required, Invalid value, Invalid value, Invalid value
+2025-08-16 08:27:47 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted, Valid website URL is required, Invalid value, Invalid value, Invalid value
+    at validate (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/schoolRoutes.js:28:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 08:34:58 [ERROR]: POST /api/v1/schools/register → 400: Terms acceptance flag must be boolean, Terms must be accepted
+2025-08-16 08:34:58 [ERROR]: BadRequestError: Terms acceptance flag must be boolean, Terms must be accepted
+    at validate (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/schoolRoutes.js:28:17)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 08:37:40 [ERROR]: ❌ Failed to send SMS OTP to 9352886788: Invalid 'To' Phone Number: 935288XXXX
+2025-08-16 13:09:31 [ERROR]: PUT /api/v1/admin/candidates/689659b54d803a6cb815ebba/status → 500: Candidate validation failed: education.0.degree: Path `degree` is required., education.0.level: Path `level` is required., experience.0.from: Path `from` is required., experience.0.role: Path `role` is required.
+2025-08-16 13:09:31 [ERROR]: ValidationError: Candidate validation failed: education.0.degree: Path `degree` is required., education.0.level: Path `level` is required., experience.0.from: Path `from` is required., experience.0.role: Path `role` is required.
+    at Document.invalidate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/document.js:3352:32)
+    at Subdocument.invalidate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/types/subdocument.js:229:12)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/document.js:3113:17
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-08-16 18:07:32 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:32 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:07:33 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:33 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:07:35 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:35 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:07:41 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:41 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:07:49 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:49 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:07:50 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:50 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:07:52 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:07:52 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:08:06 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:08:06 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:08:14 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:08:14 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:08:15 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:08:15 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:08:17 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:08:17 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:08:48 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:08:48 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:09:11 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:09:11 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:09:12 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:09:12 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:09:16 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:09:16 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:09:21 [ERROR]: GET /api/v1/admin/candidates/689659b54d803a6cb815ebba → 500: Cannot do exclusion on field password in inclusion projection
+2025-08-16 18:09:21 [ERROR]: MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.sendCommand (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async Server.command (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/sdam/server.js:171:29)
+    at async FindOperation.execute (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/find.js:36:16)
+    at async tryOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+    at async executeOperation (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+    at async FindCursor._initialize (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+    at async FindCursor.cursorInit (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+2025-08-16 18:46:23 [ERROR]: PUT /api/v1/candidates/profile → 400: Invalid employment type.
+2025-08-16 18:46:23 [ERROR]: BadRequestError: Invalid employment type.
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/candidateRoutes.js:30:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 18:50:19 [ERROR]: PUT /api/v1/candidates/profile → 400: Invalid employment type.
+2025-08-16 18:50:19 [ERROR]: BadRequestError: Invalid employment type.
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/routes/candidateRoutes.js:30:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-16 19:51:40 [ERROR]: POST /api/v1/auth/login → 500: "email" must be a valid email
+2025-08-16 19:51:40 [ERROR]: ValidationError: "email" must be a valid email
+2025-08-16 22:10:56 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb7 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:10:56 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:10:57 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb7 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:10:57 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:10:59 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb7 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:10:59 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:11:02 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:11:02 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:11:03 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:11:03 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:11:05 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:11:05 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:11:09 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:11:09 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:11:38 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:11:38 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:11:39 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:11:39 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:12:14 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:12:14 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:14:09 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:14:09 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:14:10 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:14:10 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:14:12 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:14:12 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:14:17 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:14:17 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:14:37 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:14:37 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:14:38 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:14:38 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:21:01 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:21:01 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-16 22:24:59 [ERROR]: GET /api/v1/admin/schools/689659b44d803a6cb815ebb4 → 500: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-16 22:24:59 [ERROR]: StrictPopulateError: Cannot populate path `pushedCandidates` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)
+    at _populatePath (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4468:21)
+    at Function.populate (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/model.js:4435:21)
+    at model.Query._find (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:2433:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
+    at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
