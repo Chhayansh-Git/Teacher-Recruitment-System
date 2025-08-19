@@ -2603,3 +2603,167 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
     at async model.Query.exec (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/mongoose/lib/query.js:4604:63)
     at async getSchoolDetails (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/adminController.js:143:30)
+2025-08-19 12:42:23 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 12:42:23 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 12:45:39 [ERROR]: GET /api/v1/candidates/profile → 403: Forbidden
+2025-08-19 12:45:39 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-19 12:45:39 [ERROR]: GET /api/v1/candidates/draft → 403: Forbidden
+2025-08-19 12:45:39 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-19 12:45:39 [ERROR]: GET /api/v1/candidates/profile → 403: Forbidden
+2025-08-19 12:45:39 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-19 12:45:39 [ERROR]: GET /api/v1/candidates/draft → 403: Forbidden
+2025-08-19 12:45:39 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-19 12:45:40 [ERROR]: GET /api/v1/candidates/dashboard → 403: Forbidden
+2025-08-19 12:45:40 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-19 12:45:40 [ERROR]: GET /api/v1/candidates/dashboard → 403: Forbidden
+2025-08-19 12:45:40 [ERROR]: ForbiddenError: Forbidden
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authorizeRoles.js:16:19
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+    at processParams (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:582:12)
+    at next (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:291:5)
+    at verifyToken (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/middleware/authMiddleware.js:31:5)
+    at Layer.handleRequest (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:342:13)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/router/index.js:297:9
+2025-08-19 13:44:40 [ERROR]: ❌ SMTP fallback failed: C0E03CF501000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-19 13:48:27 [ERROR]: ❌ SMTP fallback failed: C0E03CF501000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-19 13:49:19 [ERROR]: ❌ SMTP fallback failed: C0E03CF501000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:
+
+2025-08-19 13:49:28 [ERROR]: POST /api/v1/auth/verify-otp → 500: "role" is required
+2025-08-19 13:49:28 [ERROR]: ValidationError: "role" is required
+2025-08-19 13:50:01 [ERROR]: POST /api/v1/auth/verify-otp → 400: Expected ',' or '}' after property value in JSON at position 28 (line 3 column 3)
+2025-08-19 13:50:01 [ERROR]: SyntaxError: Expected ',' or '}' after property value in JSON at position 28 (line 3 column 3)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/body-parser/lib/types/json.js:77:19)
+    at /Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/chhayanshporwal/projects/Teacher Recruitment System/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-08-19 14:06:52 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-19 14:06:52 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-19 14:06:56 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-19 14:06:56 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-19 14:06:56 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-19 14:06:56 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-19 14:06:56 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-19 14:06:56 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-19 14:06:57 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-19 14:06:57 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-19 14:06:57 [ERROR]: POST /api/v1/auth/register → 500: "password" length must be at least 8 characters long
+2025-08-19 14:06:57 [ERROR]: ValidationError: "password" length must be at least 8 characters long
+2025-08-19 14:07:16 [ERROR]: POST /api/v1/auth/register → 409: Email already registered
+2025-08-19 14:07:16 [ERROR]: ConflictError: Email already registered
+    at file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/authController.js:55:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:34:03 [ERROR]: ❌ Failed to send SMS OTP to 9352886788: Invalid 'To' Phone Number: 935288XXXX
+2025-08-19 14:35:13 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:35:13 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:36:31 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:36:31 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:38:15 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:38:15 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:38:57 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:38:57 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:38:58 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:38:58 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:38:58 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:38:58 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:38:59 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:38:59 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:38:59 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials or not verified
+2025-08-19 14:38:59 [ERROR]: UnauthorizedError: Invalid credentials or not verified
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:153:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-08-19 14:39:30 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-08-19 14:39:30 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:155:23)
+2025-08-19 14:40:12 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-08-19 14:40:12 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:155:23)
+2025-08-19 14:41:59 [ERROR]: ❌ Failed to send SMS OTP to 9352886788: Invalid 'To' Phone Number: 935288XXXX
+2025-08-19 14:43:23 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-08-19 14:43:23 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:155:23)
+2025-08-19 14:46:44 [ERROR]: POST /api/v1/schools/login → 401: Invalid credentials
+2025-08-19 14:46:44 [ERROR]: UnauthorizedError: Invalid credentials
+    at loginSchool (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:155:23)
+2025-08-19 15:11:36 [ERROR]: ❌ Failed to send SMS OTP to 9352886788: Invalid 'To' Phone Number: 935288XXXX
+2025-08-19 15:18:42 [ERROR]: ❌ Failed to send SMS OTP to 9352886788: Invalid 'To' Phone Number: 935288XXXX
+2025-08-19 15:19:01 [ERROR]: POST /api/v1/schools/verify-otp → 400: Invalid or expired OTP
+2025-08-19 15:19:01 [ERROR]: BadRequestError: Invalid or expired OTP
+    at verifySchoolOTP (file:///Users/chhayanshporwal/projects/Teacher%20Recruitment%20System/server/controllers/schoolController.js:78:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
