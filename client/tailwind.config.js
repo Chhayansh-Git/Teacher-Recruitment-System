@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcss from '@tailwindcss/vite'
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -6,5 +8,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    tailwindcss(),
+  ],
+  
 }

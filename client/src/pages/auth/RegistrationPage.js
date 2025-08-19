@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate, Link } from 'react-router-dom';
-import { Mail, Lock, User, Users, Building, Phone, Globe, BookUser, Briefcase, MapPin, Hash, Eye, EyeOff, GraduationCap, School as SchoolIcon, ArrowRight, UserCheck } from 'lucide-react';
+import { Mail, Lock, User, Building, Phone, Globe, BookUser, Briefcase, MapPin, Hash, Eye, EyeOff, GraduationCap, School as SchoolIcon, ArrowRight, UserCheck } from 'lucide-react';
 import formSchemas from '../../config/formSchemas';
 
 export const RegistrationPage = () => {
@@ -16,7 +16,7 @@ export const RegistrationPage = () => {
     const [formData, setFormData] = useState({
         email: '', contactNo: '', fullName: '', password: '', confirmPassword: '', type: 'teaching', position: 'Primary Teacher',
         name: '', affiliationNo: '', address: '', location: '', pincode: '', whatsappNumber: '', website: '',
-        principalName: '', directorName: '', strength: 500, schoolUpto: 'XII', board: 'CBSE', acceptedTerms: false,
+        principalName: '', directorName: '', strength: '500', schoolUpto: 'XII', board: 'CBSE', acceptedTerms: false,
     });
     
     useEffect(() => {
@@ -45,11 +45,9 @@ export const RegistrationPage = () => {
         
         try {
             const message = await register(role, formData);
-            // FIX: Redirect to profile completion instead of OTP page directly from here.
-            // The OTP step should ideally be part of the 'register' service and resolve before this.
-            setSuccess(`${message}. Redirecting to complete your profile...`);
+            setSuccess(`${message}. Redirecting to OTP verification...`);
             setTimeout(() => {
-                navigate('/complete-profile');
+                navigate('/otp-verification', { state: { email: formData.email, role: role } });
             }, 2000);
         } catch (err) {
             const errorMessage = err.response?.data?.error || err.response?.data?.message || 'Registration failed.';
@@ -63,7 +61,6 @@ export const RegistrationPage = () => {
         ? { gradient: 'from-teal-500 to-cyan-500', title: 'Candidate Registration' }
         : { gradient: 'from-blue-500 to-indigo-500', title: 'School Registration' };
 
-    // ... The rest of the JSX for this component remains the same
     return (
         <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
             <div className="w-full max-w-3xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
@@ -117,7 +114,7 @@ const SchoolFormFields = ({ formData, handleInputChange }) => (
         <div className="md:col-span-2"><InputField icon={<MapPin />} name="address" value={formData.address} onChange={handleInputChange} placeholder="Full Address" required /></div>
         <InputField icon={<MapPin />} name="location" value={formData.location} onChange={handleInputChange} placeholder="City/Location" required />
         <InputField icon={<Hash />} name="pincode" value={formData.pincode} onChange={handleInputChange} placeholder="Pincode" required />
-        <InputField icon={<Users />} name="strength" type="number" value={formData.strength} onChange={handleInputChange} placeholder="Total Student Strength" required />
+        <InputField icon={<User />} name="strength" type="number" value={formData.strength} onChange={handleInputChange} placeholder="Total Student Strength" required />
         <div className="flex items-center space-x-4">
             <SelectField icon={<GraduationCap />} name="schoolUpto" value={formData.schoolUpto} onChange={handleInputChange}><option value="V">Up to V</option><option value="X">Up to X</option><option value="XII">Up to XII</option></SelectField>
             <SelectField icon={<BookUser />} name="board" value={formData.board} onChange={handleInputChange}><option value="CBSE">CBSE</option><option value="ICSE">ICSE</option><option value="State">State</option><option value="IB">IB</option><option value="IGCSE">IGCSE</option></SelectField>

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../../api';
 import { EditProfileForm } from './CandidateProfilePage'; // Importing the form
+import { UserCheck } from 'lucide-react';
 
 const CompleteProfilePage = () => {
     const [initialData, setInitialData] = useState(null);
@@ -18,7 +19,6 @@ const CompleteProfilePage = () => {
                 setInitialData(response.data.data);
             } catch (err) {
                 setError('Failed to load profile data. Please try again later.');
-                console.error("Failed to fetch profile", err);
             } finally {
                 setLoading(false);
             }
@@ -27,7 +27,6 @@ const CompleteProfilePage = () => {
     }, []);
 
     const handleSaveProfile = async (formData, isDraft) => {
-        // This unified handler can save drafts or final versions
         const payload = {
             ...formData,
             preferredLocations: formData.preferredLocations.split(',').map(s => s.trim()),
@@ -43,10 +42,9 @@ const CompleteProfilePage = () => {
                 await api.put('/candidates/profile', payload);
                 alert('Profile updated successfully!');
             }
-            navigate('/candidate/dashboard'); // Navigate to dashboard after any save
+            navigate('/candidate/dashboard');
         } catch (err) {
             alert('Failed to save profile. Please check your inputs and try again.');
-            console.error(err);
         }
     };
 
@@ -56,14 +54,18 @@ const CompleteProfilePage = () => {
     return (
         <div className="max-w-7xl mx-auto">
             <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
-                <div className="text-center mb-6">
+                {/* ENHANCEMENT: Clearer, more encouraging header */}
+                <div className="text-center mb-8 border-b pb-6">
+                    <div className="inline-block p-4 bg-blue-100 rounded-full mb-4">
+                        <UserCheck className="w-10 h-10 text-blue-500" />
+                    </div>
                     <h2 className="text-3xl font-bold text-gray-800">Complete Your Profile</h2>
-                    <p className="text-gray-500 mt-2">Fill in your details to get noticed by schools, or skip for now and do it later.</p>
+                    <p className="text-gray-500 mt-2 max-w-2xl mx-auto">A complete profile stands out to recruiters. Fill in your details below to boost your chances.</p>
                 </div>
                 
                 {initialData && <EditProfileForm initialData={initialData} onSave={handleSaveProfile} isCompletionStep={true} />}
                 
-                <div className="text-center mt-8">
+                <div className="text-center mt-8 pt-6 border-t">
                     <button 
                         onClick={() => navigate('/candidate/dashboard')}
                         className="font-medium text-gray-600 hover:text-blue-600 transition"
